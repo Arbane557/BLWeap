@@ -1,0 +1,1492 @@
+[
+  {
+    "id": "\"No Accessory\"",
+    "type": "accessory",
+    "class": "SMG",
+    "manufacturer": "",
+    "statModifiers": {},
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Bayonet 1",
+    "type": "accessory",
+    "class": "SMG",
+    "manufacturer": "",
+    "statModifiers": {
+      "meleeDamage": 0.5
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Bayonet 2",
+    "type": "accessory",
+    "class": "SMG",
+    "manufacturer": "",
+    "statModifiers": {
+      "meleeDamage": 0.5
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Body 1 Accuracy",
+    "type": "accessory",
+    "class": "SMG",
+    "manufacturer": "",
+    "statModifiers": {
+      "minAccuracy": 5.0,
+      "weaponSpread": 5.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Body 2 Damage",
+    "type": "accessory",
+    "class": "SMG",
+    "manufacturer": "",
+    "statModifiers": {
+      "impulseAccuracy": -3.0,
+      "weaponDamage": 6.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Body 3 Accelerated",
+    "type": "accessory",
+    "class": "SMG",
+    "manufacturer": "",
+    "statModifiers": {
+      "fireInterval": 4.0,
+      "projectileSpeed": 0.5
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Stock 1 Stability",
+    "type": "accessory",
+    "class": "SMG",
+    "manufacturer": "",
+    "statModifiers": {
+      "impulseAccuracy": 5.0,
+      "maxAccuracy": 5.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Stock 2 Reload",
+    "type": "accessory",
+    "class": "SMG",
+    "manufacturer": "",
+    "statModifiers": {
+      "magSize": 1.0,
+      "reloadTime": 5.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Alt Accessories",
+    "type": "accessory",
+    "class": "SMG",
+    "manufacturer": "",
+    "statModifiers": {},
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Marek's Mouth",
+    "type": "accessory",
+    "class": "SMG",
+    "manufacturer": "",
+    "statModifiers": {},
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Bandit Barrel",
+    "type": "barrel",
+    "class": "SMG",
+    "manufacturer": "Bandit",
+    "statModifiers": {
+      "minAccuracy": -3.0,
+      "weaponDamage": 2.0,
+      "weaponSpread": -3.0
+    },
+    "compatibilityBonus": {
+      "Bandit": {
+        "impulseAccuracy": -0.7,
+        "weaponDamage": 0.05
+      }
+    }
+  },
+  {
+    "id": "Dahl Barrel",
+    "type": "barrel",
+    "class": "SMG",
+    "manufacturer": "Dahl",
+    "statModifiers": {
+      "burstImpulseScale": 3.0,
+      "impulseAccuracy": 10.0,
+      "maxAccuracy": 10.0,
+      "weaponSpread": -5.0
+    },
+    "compatibilityBonus": {
+      "Dahl + Zoom": {
+        "burstCount": 1.0
+      },
+      "Dahl": {
+        "weaponDamage": 0.1,
+        "weaponSpread": -0.2
+      }
+    }
+  },
+  {
+    "id": "E-Tech Barrel",
+    "type": "barrel",
+    "class": "SMG",
+    "manufacturer": "",
+    "statModifiers": {
+      "impulseAccuracy": -2.0,
+      "magSize": 0.8,
+      "shotCost": 1.0,
+      "statusChanceModifier": 0.2,
+      "weaponDamage": 0.8
+    },
+    "compatibilityBonus": {
+      "Hyperion": {
+        "impulseAccuracy": 3.0
+      }
+    }
+  },
+  {
+    "id": "E-Tech (Bandit) Barrel",
+    "type": "barrel",
+    "class": "SMG",
+    "manufacturer": "Bandit",
+    "statModifiers": {
+      "impulseAccuracy": -2.0,
+      "magSize": 0.8,
+      "shotCost": 1.0,
+      "statusChanceModifier": 0.2,
+      "weaponDamage": 0.4
+    },
+    "compatibilityBonus": {
+      "Hyperion": {
+        "impulseAccuracy": 3.0
+      }
+    }
+  },
+  {
+    "id": "Hyperion Barrel",
+    "type": "barrel",
+    "class": "SMG",
+    "manufacturer": "Hyperion",
+    "statModifiers": {
+      "impulseAccuracy": 5.0,
+      "magSize": -2.0,
+      "minAccuracy": 5.0,
+      "weaponDamage": -3.0,
+      "weaponSpread": 5.0
+    },
+    "compatibilityBonus": {
+      "Hyperion": {
+        "impulseAccuracy": -0.2,
+        "weaponDamage": 0.1,
+        "weaponSpread": -0.15
+      }
+    }
+  },
+  {
+    "id": "Maliwan Barrel",
+    "type": "barrel",
+    "class": "SMG",
+    "manufacturer": "Maliwan",
+    "statModifiers": {
+      "maxAccuracy": 2.0,
+      "statusChanceModifier": 0.15,
+      "statusEffectDamage": 0.15,
+      "weaponSpread": 2.0
+    },
+    "compatibilityBonus": {
+      "Maliwan": {
+        "weaponDamage": 0.1,
+        "weaponSpread": -0.15
+      }
+    }
+  },
+  {
+    "id": "Tediore Barrel",
+    "type": "barrel",
+    "class": "SMG",
+    "manufacturer": "Tediore",
+    "statModifiers": {
+      "impulseAccuracy": 5.0,
+      "reloadTime": 2.0,
+      "weaponDamage": -2.0
+    },
+    "compatibilityBonus": {
+      "Tediore": {
+        "reloadTime": -0.25,
+        "weaponDamage": 0.1
+      }
+    }
+  },
+  {
+    "id": "Actualizer Barrel",
+    "type": "barrel",
+    "class": "SMG",
+    "manufacturer": "",
+    "statModifiers": {
+      "accuracyRegen": -20.0,
+      "magSize": 0.2,
+      "minAccuracy": -5.0,
+      "projectileSpeed": -0.8,
+      "reloadTime": 1.0,
+      "weaponDamage": 1.4,
+      "weaponSpread": 2.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Avenger Barrel",
+    "type": "barrel",
+    "class": "SMG",
+    "manufacturer": "",
+    "statModifiers": {
+      "impulseAccuracy": 5.0,
+      "magSize": 10.0,
+      "minAccuracy": 5.0,
+      "weaponDamage": 0.3,
+      "weaponSpread": 5.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Baby Maker Barrel",
+    "type": "barrel",
+    "class": "SMG",
+    "manufacturer": "",
+    "statModifiers": {
+      "impulseAccuracy": 5.0,
+      "reloadTime": 2.0,
+      "weaponDamage": 2.0
+    },
+    "compatibilityBonus": {
+      "Tediore": {
+        "reloadTime": -0.25,
+        "weaponDamage": 0.35
+      }
+    }
+  },
+  {
+    "id": "Bad Touch Barrel",
+    "type": "barrel",
+    "class": "SMG",
+    "manufacturer": "",
+    "statModifiers": {
+      "critDamage": 0.7,
+      "damageToHealing": 0.02,
+      "maxAccuracy": 5.0,
+      "statusChanceModifier": 0.3,
+      "statusEffectDamage": 0.15,
+      "weaponSpread": 5.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Bane Barrel",
+    "type": "barrel",
+    "class": "SMG",
+    "manufacturer": "",
+    "statModifiers": {
+      "impulseAccuracy": 5.0,
+      "magSize": 14.0,
+      "maxAccuracy": -10.0,
+      "minAccuracy": -2.0,
+      "weaponDamage": 1.3,
+      "weaponSpread": 2.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Bitch Barrel",
+    "type": "barrel",
+    "class": "SMG",
+    "manufacturer": "",
+    "statModifiers": {
+      "accuracyRegen": -2.0,
+      "critDamage": 0.75,
+      "impulseAccuracy": 2.0,
+      "magSize": 8.0,
+      "maxAccuracy": -2.0,
+      "minAccuracy": 5.0,
+      "weaponDamage": 0.15,
+      "weaponSpread": 8.0
+    },
+    "compatibilityBonus": {
+      "Hyperion": {
+        "impulseAccuracy": -1.0,
+        "weaponSpread": -0.35
+      }
+    }
+  },
+  {
+    "id": "Black Snake Barrel",
+    "type": "barrel",
+    "class": "SMG",
+    "manufacturer": "",
+    "statModifiers": {
+      "impulseAccuracy": 5.0,
+      "magSize": -2.0,
+      "minAccuracy": 5.0,
+      "projectileCount": 1.0,
+      "statusChanceModifier": -1.0,
+      "weaponDamage": -0.4,
+      "weaponSpread": 5.0
+    },
+    "compatibilityBonus": {
+      "Hyperion": {
+        "impulseAccuracy": -0.2,
+        "weaponSpread": -0.15
+      }
+    }
+  },
+  {
+    "id": "Bone Shredder Barrel",
+    "type": "barrel",
+    "class": "SMG",
+    "manufacturer": "",
+    "statModifiers": {
+      "impulseAccuracy": -20.0,
+      "projectileCount": 2.0,
+      "shotCost": 1.0,
+      "weaponDamage": -7.0,
+      "weaponSpread": 4.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Cheat Code Barrel",
+    "type": "barrel",
+    "class": "SMG",
+    "manufacturer": "",
+    "statModifiers": {
+      "accuracyRegen": -2.0,
+      "critDamage": 0.75,
+      "impulseAccuracy": 2.0,
+      "magSize": 8.0,
+      "maxAccuracy": -2.0,
+      "minAccuracy": 5.0,
+      "weaponDamage": 0.15,
+      "weaponSpread": 8.0
+    },
+    "compatibilityBonus": {
+      "Hyperion": {
+        "impulseAccuracy": -1.0,
+        "weaponSpread": -0.35
+      }
+    }
+  },
+  {
+    "id": "Chulainn Barrel",
+    "type": "barrel",
+    "class": "SMG",
+    "manufacturer": "",
+    "statModifiers": {
+      "fireInterval": 7.0,
+      "magSize": 4.0,
+      "reloadTime": 5.0,
+      "statusChanceModifier": 0.8,
+      "weaponDamage": 3.0,
+      "weaponSpread": 3.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Commerce Barrel",
+    "type": "barrel",
+    "class": "SMG",
+    "manufacturer": "",
+    "statModifiers": {
+      "impulseAccuracy": 5.0,
+      "reloadTime": 2.0
+    },
+    "compatibilityBonus": {
+      "Tediore": {
+        "reloadTime": -0.25,
+        "weaponDamage": 0.1
+      }
+    }
+  },
+  {
+    "id": "Crit Barrel",
+    "type": "barrel",
+    "class": "SMG",
+    "manufacturer": "",
+    "statModifiers": {
+      "critDamage": 1.5,
+      "damageToHealing": 0.025,
+      "impulseAccuracy": 5.0,
+      "magSize": 4.0,
+      "minAccuracy": 5.0,
+      "projectileSpeed": 0.5,
+      "reloadTime": -0.4,
+      "statusChanceModifier": 0.25,
+      "statusEffectDamage": 0.33,
+      "weaponDamage": 0.5,
+      "weaponSpread": -0.5
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Emperor Barrel",
+    "type": "barrel",
+    "class": "SMG",
+    "manufacturer": "",
+    "statModifiers": {
+      "burstImpulseScale": 3.0,
+      "fireInterval": -10.0,
+      "impulseAccuracy": -5.0,
+      "magSize": 10.0,
+      "weaponDamage": 20.0,
+      "weaponSpread": -10.0
+    },
+    "compatibilityBonus": {
+      "Dahl + Zoom": {
+        "burstCount": 3.0
+      },
+      "Dahl": {
+        "weaponDamage": 0.35,
+        "weaponSpread": -0.2
+      }
+    }
+  },
+  {
+    "id": "Fast Talker Barrel",
+    "type": "barrel",
+    "class": "SMG",
+    "manufacturer": "",
+    "statModifiers": {
+      "burstImpulseScale": 3.0,
+      "fireInterval": -0.07,
+      "impulseAccuracy": -1.3,
+      "maxAccuracy": -2.0,
+      "reloadTime": -2.0,
+      "weaponSpread": -0.4
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Fatale Barrel",
+    "type": "barrel",
+    "class": "SMG",
+    "manufacturer": "",
+    "statModifiers": {
+      "accuracyRegen": -2.0,
+      "critDamage": 0.75,
+      "impulseAccuracy": 2.0,
+      "magSize": 8.0,
+      "maxAccuracy": -2.0,
+      "minAccuracy": 5.0,
+      "weaponDamage": 0.15,
+      "weaponSpread": 8.0
+    },
+    "compatibilityBonus": {
+      "Hyperion": {
+        "impulseAccuracy": -1.0,
+        "weaponSpread": -0.35
+      }
+    }
+  },
+  {
+    "id": "Florentine Barrel",
+    "type": "barrel",
+    "class": "SMG",
+    "manufacturer": "",
+    "statModifiers": {
+      "impulseAccuracy": -2.0,
+      "magSize": 0.8,
+      "shotCost": 1.0,
+      "statusChanceModifier": -0.2,
+      "weaponDamage": 0.9
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Fridgia Barrel",
+    "type": "barrel",
+    "class": "SMG",
+    "manufacturer": "",
+    "statModifiers": {
+      "extraShotChance": 0.6,
+      "impulseAccuracy": -2.1,
+      "magSize": 6.0,
+      "minAccuracy": -1.5,
+      "projectileCount": 1.0,
+      "statusChanceModifier": 2.0,
+      "weaponDamage": -0.5
+    },
+    "compatibilityBonus": {
+      "Zoom": {
+        "burstCount": 6.0
+      }
+    }
+  },
+  {
+    "id": "Frostfire Barrel",
+    "type": "barrel",
+    "class": "SMG",
+    "manufacturer": "",
+    "statModifiers": {
+      "fireInterval": 7.0,
+      "magSize": 4.0,
+      "reloadTime": 5.0,
+      "shotCost": 1.0,
+      "statusChanceModifier": 0.8,
+      "weaponDamage": 3.0,
+      "weaponSpread": 3.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Good Touch Barrel",
+    "type": "barrel",
+    "class": "SMG",
+    "manufacturer": "",
+    "statModifiers": {
+      "critDamage": 0.7,
+      "damageToHealing": 0.025,
+      "maxAccuracy": 6.0,
+      "statusChanceModifier": 0.25,
+      "statusEffectDamage": 0.33,
+      "weaponSpread": 6.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "HellFire Barrel",
+    "type": "barrel",
+    "class": "SMG",
+    "manufacturer": "",
+    "statModifiers": {
+      "magSize": 4.0,
+      "maxAccuracy": 2.0,
+      "statusChanceModifier": 0.5,
+      "statusEffectDamage": 0.2,
+      "weaponDamage": 3.0,
+      "weaponSpread": 2.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Infection Cleaner Barrel",
+    "type": "barrel",
+    "class": "SMG",
+    "manufacturer": "",
+    "statModifiers": {
+      "impulseAccuracy": 5.0,
+      "magSize": 10.0,
+      "minAccuracy": 5.0,
+      "weaponDamage": 0.4,
+      "weaponSpread": 5.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "IVF Barrel",
+    "type": "barrel",
+    "class": "SMG",
+    "manufacturer": "",
+    "statModifiers": {
+      "impulseAccuracy": 5.0,
+      "reloadTime": 2.0,
+      "weaponDamage": 2.0
+    },
+    "compatibilityBonus": {
+      "Tediore": {
+        "reloadTime": -0.25,
+        "weaponDamage": 0.35
+      }
+    }
+  },
+  {
+    "id": "Lascaux Barrel",
+    "type": "barrel",
+    "class": "SMG",
+    "manufacturer": "",
+    "statModifiers": {
+      "extraShotChance": 0.6,
+      "impulseAccuracy": -2.1,
+      "magSize": 6.0,
+      "minAccuracy": -1.5,
+      "projectileCount": 1.0,
+      "weaponDamage": 2.0
+    },
+    "compatibilityBonus": {
+      "Zoom": {
+        "burstCount": 6.0
+      }
+    }
+  },
+  {
+    "id": "Marek's Mouth Barrel",
+    "type": "barrel",
+    "class": "SMG",
+    "manufacturer": "",
+    "statModifiers": {
+      "minAccuracy": -3.0,
+      "weaponDamage": 2.0,
+      "weaponSpread": -3.0
+    },
+    "compatibilityBonus": {
+      "Bandit": {
+        "fireInterval": -0.3,
+        "impulseAccuracy": -0.7,
+        "weaponDamage": -0.5
+      }
+    }
+  },
+  {
+    "id": "Meat Grinder Barrel",
+    "type": "barrel",
+    "class": "SMG",
+    "manufacturer": "",
+    "statModifiers": {
+      "impulseAccuracy": -20.0,
+      "projectileCount": 2.0,
+      "shotCost": 1.0,
+      "weaponDamage": -7.0,
+      "weaponSpread": 4.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Nirvana Barrel",
+    "type": "barrel",
+    "class": "SMG",
+    "manufacturer": "",
+    "statModifiers": {
+      "magSize": 4.0,
+      "maxAccuracy": 2.0,
+      "statusChanceModifier": 0.5,
+      "statusEffectDamage": 0.2,
+      "weaponDamage": 3.0,
+      "weaponSpread": 2.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Orc Barrel",
+    "type": "barrel",
+    "class": "SMG",
+    "manufacturer": "",
+    "statModifiers": {
+      "burstImpulseScale": 3.0,
+      "impulseAccuracy": 10.0,
+      "maxAccuracy": 10.0,
+      "weaponSpread": -5.0
+    },
+    "compatibilityBonus": {
+      "Dahl + Zoom": {
+        "burstCount": 1.0
+      },
+      "Dahl": {
+        "weaponDamage": 0.1,
+        "weaponSpread": -0.2
+      }
+    }
+  },
+  {
+    "id": "Sand Hawk Barrel",
+    "type": "barrel",
+    "class": "SMG",
+    "manufacturer": "",
+    "statModifiers": {
+      "fireInterval": 0.25,
+      "minAccuracy": -3.0,
+      "shotCost": 2.0,
+      "weaponDamage": -0.1,
+      "weaponSpread": -3.0
+    },
+    "compatibilityBonus": {
+      "Zoom": {
+        "fireInterval": -0.2
+      }
+    }
+  },
+  {
+    "id": "Slagga Barrel",
+    "type": "barrel",
+    "class": "SMG",
+    "manufacturer": "",
+    "statModifiers": {
+      "fireInterval": 5.0,
+      "magSize": 18.0,
+      "maxAccuracy": 12.0,
+      "minAccuracy": -4.0,
+      "projectileCount": 2.0,
+      "statusChanceModifier": 0.6,
+      "weaponDamage": -0.7,
+      "weaponSpread": 4.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Tattler Barrel",
+    "type": "barrel",
+    "class": "SMG",
+    "manufacturer": "",
+    "statModifiers": {
+      "accuracyRegen": -20.0,
+      "magSize": -0.2,
+      "maxAccuracy": -5.0,
+      "minAccuracy": -5.0,
+      "projectileCount": 2.0,
+      "projectileSpeed": -0.8,
+      "reloadTime": 0.35,
+      "weaponSpread": 6.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Torrent Barrel",
+    "type": "barrel",
+    "class": "SMG",
+    "manufacturer": "",
+    "statModifiers": {
+      "burstImpulseScale": 2.0,
+      "fireInterval": 15.0,
+      "impulseAccuracy": -5.0,
+      "magSize": 8.0,
+      "reloadTime": 7.0,
+      "weaponDamage": 18.0,
+      "weaponSpread": -10.0
+    },
+    "compatibilityBonus": {
+      "Dahl + Zoom": {
+        "burstCount": 2.0,
+        "burstImpulseScale": 0.2
+      },
+      "Dahl": {
+        "weaponDamage": 0.2,
+        "weaponSpread": -0.2
+      }
+    }
+  },
+  {
+    "id": "Yellow Jacket Barrel",
+    "type": "barrel",
+    "class": "SMG",
+    "manufacturer": "",
+    "statModifiers": {
+      "impulseAccuracy": -2.0,
+      "magSize": 1.0,
+      "shotCost": 1.0,
+      "statusChanceModifier": 0.3,
+      "weaponDamage": 1.0
+    },
+    "compatibilityBonus": {
+      "Hyperion": {
+        "impulseAccuracy": 3.0
+      }
+    }
+  },
+  {
+    "id": "Bandit (Common)",
+    "type": "body",
+    "class": "SMG",
+    "manufacturer": "Bandit",
+    "statModifiers": {},
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Bandit (Rare)",
+    "type": "body",
+    "class": "SMG",
+    "manufacturer": "Bandit",
+    "statModifiers": {
+      "magSize": 5.0,
+      "weaponDamage": 16.0,
+      "weaponSpread": 5.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Bandit (Uncommon)",
+    "type": "body",
+    "class": "SMG",
+    "manufacturer": "Bandit",
+    "statModifiers": {
+      "magSize": 3.0,
+      "weaponDamage": 8.0,
+      "weaponSpread": 3.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Bandit (Very Rare)",
+    "type": "body",
+    "class": "SMG",
+    "manufacturer": "Bandit",
+    "statModifiers": {
+      "magSize": 7.0,
+      "weaponDamage": 24.0,
+      "weaponSpread": 7.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Dahl (Common)",
+    "type": "body",
+    "class": "SMG",
+    "manufacturer": "Dahl",
+    "statModifiers": {},
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Dahl (Rare)",
+    "type": "body",
+    "class": "SMG",
+    "manufacturer": "Dahl",
+    "statModifiers": {
+      "magSize": 5.0,
+      "weaponDamage": 16.0,
+      "weaponSpread": 5.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Dahl (Uncommon)",
+    "type": "body",
+    "class": "SMG",
+    "manufacturer": "Dahl",
+    "statModifiers": {
+      "magSize": 3.0,
+      "weaponDamage": 8.0,
+      "weaponSpread": 3.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Dahl (Very Rare)",
+    "type": "body",
+    "class": "SMG",
+    "manufacturer": "Dahl",
+    "statModifiers": {
+      "magSize": 7.0,
+      "weaponDamage": 24.0,
+      "weaponSpread": 7.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Hyperion (Common)",
+    "type": "body",
+    "class": "SMG",
+    "manufacturer": "Hyperion",
+    "statModifiers": {},
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Hyperion (Rare)",
+    "type": "body",
+    "class": "SMG",
+    "manufacturer": "Hyperion",
+    "statModifiers": {
+      "magSize": 5.0,
+      "weaponDamage": 16.0,
+      "weaponSpread": 5.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Hyperion (Uncommon)",
+    "type": "body",
+    "class": "SMG",
+    "manufacturer": "Hyperion",
+    "statModifiers": {
+      "magSize": 3.0,
+      "weaponDamage": 8.0,
+      "weaponSpread": 3.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Hyperion (Very Rare)",
+    "type": "body",
+    "class": "SMG",
+    "manufacturer": "Hyperion",
+    "statModifiers": {
+      "magSize": 7.0,
+      "weaponDamage": 24.0,
+      "weaponSpread": 7.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Maliwan (Common)",
+    "type": "body",
+    "class": "SMG",
+    "manufacturer": "Maliwan",
+    "statModifiers": {},
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Maliwan (Rare)",
+    "type": "body",
+    "class": "SMG",
+    "manufacturer": "Maliwan",
+    "statModifiers": {
+      "magSize": 5.0,
+      "weaponDamage": 16.0,
+      "weaponSpread": 5.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Maliwan (Uncommon)",
+    "type": "body",
+    "class": "SMG",
+    "manufacturer": "Maliwan",
+    "statModifiers": {
+      "magSize": 3.0,
+      "weaponDamage": 8.0,
+      "weaponSpread": 3.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Maliwan (Very Rare)",
+    "type": "body",
+    "class": "SMG",
+    "manufacturer": "Maliwan",
+    "statModifiers": {
+      "magSize": 7.0,
+      "weaponDamage": 24.0,
+      "weaponSpread": 7.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Tediore (Common)",
+    "type": "body",
+    "class": "SMG",
+    "manufacturer": "Tediore",
+    "statModifiers": {},
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Tediore (Rare)",
+    "type": "body",
+    "class": "SMG",
+    "manufacturer": "Tediore",
+    "statModifiers": {
+      "magSize": 5.0,
+      "weaponDamage": 16.0,
+      "weaponSpread": 5.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Tediore (Uncommon)",
+    "type": "body",
+    "class": "SMG",
+    "manufacturer": "Tediore",
+    "statModifiers": {
+      "magSize": 3.0,
+      "weaponDamage": 8.0,
+      "weaponSpread": 3.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Tediore (Very Rare)",
+    "type": "body",
+    "class": "SMG",
+    "manufacturer": "Tediore",
+    "statModifiers": {
+      "magSize": 7.0,
+      "weaponDamage": 24.0,
+      "weaponSpread": 7.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Avenger",
+    "type": "body",
+    "class": "SMG",
+    "manufacturer": "",
+    "statModifiers": {
+      "magSize": 7.0,
+      "weaponDamage": 24.0,
+      "weaponSpread": 7.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Black Snake",
+    "type": "body",
+    "class": "SMG",
+    "manufacturer": "",
+    "statModifiers": {},
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Gearbox",
+    "type": "body",
+    "class": "SMG",
+    "manufacturer": "",
+    "statModifiers": {
+      "fireInterval": -0.2,
+      "magSize": -0.2,
+      "weaponDamage": 0.2
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Infection Cleaner",
+    "type": "body",
+    "class": "SMG",
+    "manufacturer": "",
+    "statModifiers": {
+      "magSize": 7.0,
+      "weaponDamage": 24.0,
+      "weaponSpread": 7.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Nirvana",
+    "type": "body",
+    "class": "SMG",
+    "manufacturer": "",
+    "statModifiers": {
+      "magSize": 7.0,
+      "weaponDamage": 24.0,
+      "weaponSpread": 7.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Torrent",
+    "type": "body",
+    "class": "SMG",
+    "manufacturer": "",
+    "statModifiers": {
+      "magSize": 7.0,
+      "weaponDamage": 24.0,
+      "weaponSpread": 5.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Bandit (BL2)",
+    "type": "definition",
+    "class": "SMG",
+    "manufacturer": "Bandit",
+    "statModifiers": {
+      "accuracyRegen": -2.0,
+      "maxAccuracy": -2.0
+    },
+    "compatibilityBonus": {
+      "Zoom": {
+        "maxAccuracy": -0.15,
+        "minAccuracy": -1.0
+      }
+    }
+  },
+  {
+    "id": "Bandit (TPS)",
+    "type": "definition",
+    "class": "SMG",
+    "manufacturer": "Bandit",
+    "statModifiers": {
+      "accuracyRegen": -2.0,
+      "maxAccuracy": -2.0
+    },
+    "compatibilityBonus": {
+      "Zoom": {
+        "minAccuracy": -1.0
+      }
+    }
+  },
+  {
+    "id": "Dahl (BL2)",
+    "type": "definition",
+    "class": "SMG",
+    "manufacturer": "Dahl",
+    "statModifiers": {
+      "accuracyRegen": -2.0,
+      "maxAccuracy": -4.0,
+      "minAccuracy": 2.0
+    },
+    "compatibilityBonus": {
+      "Zoom": {
+        "burstCount": 3.0,
+        "fireInterval": -0.07,
+        "impulseAccuracy": 2.0,
+        "maxAccuracy": -0.15,
+        "minAccuracy": -1.0,
+        "weaponSpread": -0.5
+      }
+    }
+  },
+  {
+    "id": "Dahl (TPS)",
+    "type": "definition",
+    "class": "SMG",
+    "manufacturer": "Dahl",
+    "statModifiers": {
+      "accuracyRegen": -2.0,
+      "maxAccuracy": -4.0,
+      "minAccuracy": 2.0
+    },
+    "compatibilityBonus": {
+      "Zoom": {
+        "burstCount": 3.0,
+        "fireInterval": -0.07,
+        "impulseAccuracy": 2.0,
+        "minAccuracy": -1.0,
+        "weaponSpread": -0.5
+      }
+    }
+  },
+  {
+    "id": "Hyperion (BL2)",
+    "type": "definition",
+    "class": "SMG",
+    "manufacturer": "Hyperion",
+    "statModifiers": {
+      "accuracyRegen": 18.0,
+      "minAccuracy": -1.0,
+      "projectileSpeed": 0.6
+    },
+    "compatibilityBonus": {
+      "Zoom": {
+        "maxAccuracy": -0.15,
+        "minAccuracy": -1.0
+      }
+    }
+  },
+  {
+    "id": "Hyperion (TPS)",
+    "type": "definition",
+    "class": "SMG",
+    "manufacturer": "Hyperion",
+    "statModifiers": {
+      "accuracyRegen": 18.0,
+      "minAccuracy": -1.0,
+      "projectileSpeed": 0.6
+    },
+    "compatibilityBonus": {
+      "Zoom": {
+        "minAccuracy": -1.0
+      }
+    }
+  },
+  {
+    "id": "Maliwan (BL2)",
+    "type": "definition",
+    "class": "SMG",
+    "manufacturer": "Maliwan",
+    "statModifiers": {
+      "accuracyRegen": -2.0,
+      "maxAccuracy": -2.0,
+      "projectileSpeed": -0.2,
+      "statusChanceModifier": 0.25,
+      "statusEffectDamage": 0.2
+    },
+    "compatibilityBonus": {
+      "Zoom": {
+        "maxAccuracy": -0.15,
+        "minAccuracy": -1.0
+      }
+    }
+  },
+  {
+    "id": "Maliwan (TPS)",
+    "type": "definition",
+    "class": "SMG",
+    "manufacturer": "Maliwan",
+    "statModifiers": {
+      "accuracyRegen": -2.0,
+      "maxAccuracy": -2.0,
+      "projectileSpeed": -0.2,
+      "statusChanceModifier": 0.25,
+      "statusEffectDamage": 0.2
+    },
+    "compatibilityBonus": {
+      "Zoom": {
+        "minAccuracy": -1.0
+      }
+    }
+  },
+  {
+    "id": "Tediore (BL2)",
+    "type": "definition",
+    "class": "SMG",
+    "manufacturer": "Tediore",
+    "statModifiers": {
+      "accuracyRegen": -2.0,
+      "maxAccuracy": -2.0
+    },
+    "compatibilityBonus": {
+      "Zoom": {
+        "maxAccuracy": -0.15,
+        "minAccuracy": -1.0
+      }
+    }
+  },
+  {
+    "id": "Tediore (TPS)",
+    "type": "definition",
+    "class": "SMG",
+    "manufacturer": "Tediore",
+    "statModifiers": {
+      "accuracyRegen": -2.0,
+      "maxAccuracy": -2.0
+    },
+    "compatibilityBonus": {
+      "Zoom": {
+        "minAccuracy": -1.0
+      }
+    }
+  },
+  {
+    "id": "\"No Element\"",
+    "type": "element",
+    "class": "SMG",
+    "manufacturer": "",
+    "statModifiers": {},
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Corrosive",
+    "type": "element",
+    "class": "SMG",
+    "manufacturer": "",
+    "statModifiers": {
+      "weaponDamage": -0.2
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Cryo",
+    "type": "element",
+    "class": "SMG",
+    "manufacturer": "",
+    "statModifiers": {
+      "weaponDamage": -0.2
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Fire",
+    "type": "element",
+    "class": "SMG",
+    "manufacturer": "",
+    "statModifiers": {
+      "weaponDamage": -0.2
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Shock",
+    "type": "element",
+    "class": "SMG",
+    "manufacturer": "",
+    "statModifiers": {
+      "weaponDamage": -0.2
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Slag",
+    "type": "element",
+    "class": "SMG",
+    "manufacturer": "",
+    "statModifiers": {
+      "weaponDamage": -0.2
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Bandit Grip",
+    "type": "grip",
+    "class": "SMG",
+    "manufacturer": "Bandit",
+    "statModifiers": {
+      "magSize": 5.0,
+      "reloadTime": -2.0,
+      "weaponSpread": -3.0
+    },
+    "compatibilityBonus": {
+      "Bandit": {
+        "magSize": 6.0,
+        "reloadTime": -0.3
+      }
+    }
+  },
+  {
+    "id": "Dahl Grip",
+    "type": "grip",
+    "class": "SMG",
+    "manufacturer": "Dahl",
+    "statModifiers": {
+      "accuracyRegen": 2.0,
+      "impulseAccuracy": 3.0,
+      "maxAccuracy": -3.0,
+      "weaponDamage": -2.0
+    },
+    "compatibilityBonus": {
+      "Dahl": {
+        "magSize": 4.0,
+        "reloadTime": -0.3
+      }
+    }
+  },
+  {
+    "id": "Hyperion Grip",
+    "type": "grip",
+    "class": "SMG",
+    "manufacturer": "Hyperion",
+    "statModifiers": {
+      "accuracyRegen": 2.0,
+      "weaponDamage": -3.0,
+      "weaponSpread": 3.0
+    },
+    "compatibilityBonus": {
+      "Hyperion": {
+        "magSize": 4.0,
+        "reloadTime": -0.3
+      }
+    }
+  },
+  {
+    "id": "Maliwan Grip",
+    "type": "grip",
+    "class": "SMG",
+    "manufacturer": "Maliwan",
+    "statModifiers": {
+      "statusChanceModifier": 0.15
+    },
+    "compatibilityBonus": {
+      "Maliwan": {
+        "magSize": 4.0,
+        "reloadTime": -0.3
+      }
+    }
+  },
+  {
+    "id": "Tediore Grip",
+    "type": "grip",
+    "class": "SMG",
+    "manufacturer": "Tediore",
+    "statModifiers": {
+      "magSize": -2.0,
+      "reloadTime": 4.0,
+      "weaponDamage": -2.0
+    },
+    "compatibilityBonus": {
+      "Tediore": {
+        "magSize": 3.0,
+        "reloadTime": -0.15
+      }
+    }
+  },
+  {
+    "id": "Black Snake Grip",
+    "type": "grip",
+    "class": "SMG",
+    "manufacturer": "",
+    "statModifiers": {
+      "accuracyRegen": 2.0,
+      "weaponDamage": -3.0,
+      "weaponSpread": 3.0
+    },
+    "compatibilityBonus": {
+      "Hyperion": {
+        "magSize": 4.0,
+        "reloadTime": -0.3
+      }
+    }
+  },
+  {
+    "id": "Marek's Mouth Grip",
+    "type": "grip",
+    "class": "SMG",
+    "manufacturer": "",
+    "statModifiers": {
+      "magSize": 48.0,
+      "reloadTime": -0.3,
+      "weaponSpread": -3.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Bandit Stock",
+    "type": "stock",
+    "class": "SMG",
+    "manufacturer": "Bandit",
+    "statModifiers": {},
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Dahl Stock",
+    "type": "stock",
+    "class": "SMG",
+    "manufacturer": "Dahl",
+    "statModifiers": {
+      "accuracyRegen": 4.0,
+      "impulseAccuracy": 4.0,
+      "maxAccuracy": 6.0,
+      "minAccuracy": -6.0
+    },
+    "compatibilityBonus": {
+      "Dahl + Zoom": {
+        "burstCount": 1.0
+      }
+    }
+  },
+  {
+    "id": "Hyperion Stock",
+    "type": "stock",
+    "class": "SMG",
+    "manufacturer": "Hyperion",
+    "statModifiers": {
+      "accuracyRegen": 4.0,
+      "minAccuracy": 8.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Maliwan Stock",
+    "type": "stock",
+    "class": "SMG",
+    "manufacturer": "Maliwan",
+    "statModifiers": {
+      "maxAccuracy": 2.0,
+      "minAccuracy": 2.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Tediore Stock",
+    "type": "stock",
+    "class": "SMG",
+    "manufacturer": "Tediore",
+    "statModifiers": {
+      "impulseAccuracy": 2.0,
+      "maxAccuracy": -3.0,
+      "minAccuracy": -3.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Black Snake",
+    "type": "stock",
+    "class": "SMG",
+    "manufacturer": "",
+    "statModifiers": {
+      "accuracyRegen": 4.0,
+      "minAccuracy": 8.0
+    },
+    "compatibilityBonus": {}
+  }
+]

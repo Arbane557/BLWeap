@@ -1,0 +1,1763 @@
+[
+  {
+    "id": "\"No Accessory\"",
+    "type": "accessory",
+    "class": "Sniper",
+    "manufacturer": "",
+    "statModifiers": {},
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Bayonet",
+    "type": "accessory",
+    "class": "Sniper",
+    "manufacturer": "",
+    "statModifiers": {
+      "meleeDamage": 0.5
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Bipod 1 Accuracy",
+    "type": "accessory",
+    "class": "Sniper",
+    "manufacturer": "",
+    "statModifiers": {
+      "impulseAccuracy": -5.0,
+      "minAccuracy": 5.0,
+      "weaponSpread": 5.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Bipod 2 Crit",
+    "type": "accessory",
+    "class": "Sniper",
+    "manufacturer": "",
+    "statModifiers": {
+      "critDamage": 0.2,
+      "impulseAccuracy": -3.0,
+      "minAccuracy": 2.0,
+      "weaponSpread": 3.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Foregrip",
+    "type": "accessory",
+    "class": "Sniper",
+    "manufacturer": "",
+    "statModifiers": {
+      "impulseAccuracy": 6.0,
+      "maxAccuracy": 7.0,
+      "weaponSpread": -5.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Mount 1 Mag",
+    "type": "accessory",
+    "class": "Sniper",
+    "manufacturer": "",
+    "statModifiers": {
+      "magSize": 7.0,
+      "reloadTime": -3.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Mount 2 Firerate",
+    "type": "accessory",
+    "class": "Sniper",
+    "manufacturer": "",
+    "statModifiers": {
+      "fireInterval": 6.0,
+      "weaponDamage": -1.0
+    },
+    "compatibilityBonus": {
+      "Jakobs": {
+        "additionalRicochets": 2.0
+      }
+    }
+  },
+  {
+    "id": "Mount 3 Damage",
+    "type": "accessory",
+    "class": "Sniper",
+    "manufacturer": "",
+    "statModifiers": {
+      "impulseAccuracy": -6.0,
+      "weaponDamage": 6.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "\"No Accessory\" (Anemone)",
+    "type": "accessory",
+    "class": "Sniper",
+    "manufacturer": "",
+    "statModifiers": {},
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Bayonet (Anemone)",
+    "type": "accessory",
+    "class": "Sniper",
+    "manufacturer": "",
+    "statModifiers": {
+      "meleeDamage": 0.5
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Bipod 1 Accuracy (Anemone)",
+    "type": "accessory",
+    "class": "Sniper",
+    "manufacturer": "",
+    "statModifiers": {
+      "impulseAccuracy": -5.0,
+      "minAccuracy": 5.0,
+      "weaponSpread": 5.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Bipod 2 Crit (Anemone)",
+    "type": "accessory",
+    "class": "Sniper",
+    "manufacturer": "",
+    "statModifiers": {
+      "critDamage": 0.2,
+      "impulseAccuracy": -3.0,
+      "minAccuracy": 2.0,
+      "weaponSpread": 3.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Foregrip (Anemone)",
+    "type": "accessory",
+    "class": "Sniper",
+    "manufacturer": "",
+    "statModifiers": {
+      "impulseAccuracy": 6.0,
+      "maxAccuracy": 7.0,
+      "weaponSpread": -5.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Mount 1 Mag (Anemone)",
+    "type": "accessory",
+    "class": "Sniper",
+    "manufacturer": "",
+    "statModifiers": {
+      "magSize": 7.0,
+      "reloadTime": -3.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Mount 2 Firerate (Anemone)",
+    "type": "accessory",
+    "class": "Sniper",
+    "manufacturer": "",
+    "statModifiers": {
+      "fireInterval": 6.0,
+      "weaponDamage": -1.0
+    },
+    "compatibilityBonus": {
+      "Jakobs": {
+        "additionalRicochets": 2.0
+      }
+    }
+  },
+  {
+    "id": "Mount 3 Damage (Anemone)",
+    "type": "accessory",
+    "class": "Sniper",
+    "manufacturer": "",
+    "statModifiers": {
+      "impulseAccuracy": -6.0,
+      "weaponDamage": 6.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Dahl Barrel",
+    "type": "barrel",
+    "class": "Sniper",
+    "manufacturer": "Dahl",
+    "statModifiers": {
+      "accuracyRegen": 5.0,
+      "burstImpulseScale": 3.0,
+      "impulseAccuracy": 8.0,
+      "maxAccuracy": 5.0,
+      "weaponDamage": -3.0,
+      "weaponSpread": -4.0
+    },
+    "compatibilityBonus": {
+      "Dahl + Zoom": {
+        "burstCount": 2.0
+      },
+      "Dahl": {
+        "weaponDamage": 0.1,
+        "weaponSpread": -0.3
+      }
+    }
+  },
+  {
+    "id": "E-Tech Barrel",
+    "type": "barrel",
+    "class": "Sniper",
+    "manufacturer": "",
+    "statModifiers": {
+      "critDamage": -1.0,
+      "fireInterval": -1.0,
+      "shotCost": 1.0,
+      "statusChanceModifier": 0.2,
+      "weaponDamage": 0.8
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Hyperion Barrel",
+    "type": "barrel",
+    "class": "Sniper",
+    "manufacturer": "Hyperion",
+    "statModifiers": {
+      "impulseAccuracy": 2.0,
+      "magSize": -2.0,
+      "minAccuracy": 3.0,
+      "weaponDamage": -3.0,
+      "weaponSpread": 5.0
+    },
+    "compatibilityBonus": {
+      "Hyperion": {
+        "impulseAccuracy": 0.2,
+        "weaponDamage": 0.1,
+        "weaponSpread": -0.15
+      }
+    }
+  },
+  {
+    "id": "Jakobs Barrel",
+    "type": "barrel",
+    "class": "Sniper",
+    "manufacturer": "Jakobs",
+    "statModifiers": {
+      "fireInterval": -6.0,
+      "impulseAccuracy": -5.0,
+      "minAccuracy": 5.0,
+      "weaponDamage": 6.0,
+      "weaponSpread": 6.0
+    },
+    "compatibilityBonus": {
+      "Jakobs": {
+        "impulseAccuracy": -0.2,
+        "weaponDamage": 0.15,
+        "weaponSpread": -0.15
+      }
+    }
+  },
+  {
+    "id": "Maliwan Barrel",
+    "type": "barrel",
+    "class": "Sniper",
+    "manufacturer": "Maliwan",
+    "statModifiers": {
+      "maxAccuracy": 2.0,
+      "statusChanceModifier": 0.15,
+      "weaponSpread": 2.0
+    },
+    "compatibilityBonus": {
+      "Maliwan": {
+        "statusChanceModifier": 0.1,
+        "weaponDamage": 0.1,
+        "weaponSpread": -0.3
+      }
+    }
+  },
+  {
+    "id": "Vladof Barrel",
+    "type": "barrel",
+    "class": "Sniper",
+    "manufacturer": "Vladof",
+    "statModifiers": {
+      "fireInterval": 10.0,
+      "impulseAccuracy": 10.0,
+      "magSize": 10.0,
+      "weaponSpread": -4.0
+    },
+    "compatibilityBonus": {
+      "Vladof": {
+        "magSize": 4.0,
+        "weaponDamage": 0.1
+      }
+    }
+  },
+  {
+    "id": "Amigo Sincero Barrel",
+    "type": "barrel",
+    "class": "Sniper",
+    "manufacturer": "",
+    "statModifiers": {
+      "fireInterval": -6.0,
+      "impulseAccuracy": 2.0,
+      "magSize": -2.0,
+      "minAccuracy": 5.0,
+      "weaponDamage": 2.5,
+      "weaponSpread": 5.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Buffalo Barrel",
+    "type": "barrel",
+    "class": "Sniper",
+    "manufacturer": "",
+    "statModifiers": {
+      "fireInterval": -6.0,
+      "impulseAccuracy": 1.0,
+      "minAccuracy": 5.0,
+      "weaponDamage": 0.5,
+      "weaponSpread": 6.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Ch\u00e8re-amie Barrel",
+    "type": "barrel",
+    "class": "Sniper",
+    "manufacturer": "",
+    "statModifiers": {
+      "critDamage": 0.2,
+      "damageToHealing": 0.02,
+      "impulseAccuracy": 2.0,
+      "magSize": -2.0,
+      "minAccuracy": 3.0,
+      "weaponDamage": -3.0,
+      "weaponSpread": 5.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Cobra Barrel",
+    "type": "barrel",
+    "class": "Sniper",
+    "manufacturer": "",
+    "statModifiers": {
+      "accuracyRegen": 5.0,
+      "burstImpulseScale": 3.0,
+      "impulseAccuracy": 8.0,
+      "maxAccuracy": 5.0,
+      "weaponSpread": 4.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Dahl (Anemone) Barrel",
+    "type": "barrel",
+    "class": "Sniper",
+    "manufacturer": "Dahl",
+    "statModifiers": {
+      "accuracyRegen": 5.0,
+      "burstImpulseScale": 3.0,
+      "impulseAccuracy": 8.0,
+      "maxAccuracy": 5.0,
+      "weaponDamage": -3.0,
+      "weaponSpread": -4.0
+    },
+    "compatibilityBonus": {
+      "Dahl + Zoom": {
+        "burstCount": 2.0
+      },
+      "Dahl": {
+        "weaponDamage": 0.1,
+        "weaponSpread": -0.3
+      }
+    }
+  },
+  {
+    "id": "Elephant Gun Barrel",
+    "type": "barrel",
+    "class": "Sniper",
+    "manufacturer": "",
+    "statModifiers": {
+      "fireInterval": 1.1,
+      "impulseAccuracy": 2.0,
+      "magSize": -1.0,
+      "reloadTime": 0.75,
+      "weaponDamage": 1.35,
+      "weaponSpread": 0.5,
+      "zoomFov": 8.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Fremington's Edge Barrel",
+    "type": "barrel",
+    "class": "Sniper",
+    "manufacturer": "",
+    "statModifiers": {
+      "accuracyRegen": 5.0,
+      "burstImpulseScale": 3.0,
+      "impulseAccuracy": 8.0,
+      "maxAccuracy": 5.0
+    },
+    "compatibilityBonus": {
+      "Zoom": {
+        "critDamage": 0.75
+      }
+    }
+  },
+  {
+    "id": "Godfinger Barrel",
+    "type": "barrel",
+    "class": "Sniper",
+    "manufacturer": "",
+    "statModifiers": {
+      "accuracyRegen": 5.0,
+      "burstImpulseScale": 3.0,
+      "impulseAccuracy": 8.0,
+      "maxAccuracy": 5.0,
+      "weaponDamage": -1.2
+    },
+    "compatibilityBonus": {
+      "Zoom": {
+        "weaponSpread": -0.3
+      }
+    }
+  },
+  {
+    "id": "Hawk Eye Barrel",
+    "type": "barrel",
+    "class": "Sniper",
+    "manufacturer": "",
+    "statModifiers": {
+      "critDamage": 4.2,
+      "impulseAccuracy": 10.0,
+      "magSize": 2.0,
+      "reloadTime": 8.0,
+      "weaponDamage": -1.0,
+      "weaponSpread": 10.0,
+      "zoomFov": 10.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Hot Mama Barrel",
+    "type": "barrel",
+    "class": "Sniper",
+    "manufacturer": "",
+    "statModifiers": {
+      "accuracyRegen": 5.0,
+      "burstImpulseScale": 3.0,
+      "fireInterval": 31.0,
+      "impulseAccuracy": 8.0,
+      "maxAccuracy": 5.0,
+      "reloadTime": 7.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Hyperion (Anemone) Barrel",
+    "type": "barrel",
+    "class": "Sniper",
+    "manufacturer": "Hyperion",
+    "statModifiers": {
+      "impulseAccuracy": 2.0,
+      "magSize": -2.0,
+      "minAccuracy": 3.0,
+      "weaponDamage": -3.0,
+      "weaponSpread": 5.0
+    },
+    "compatibilityBonus": {
+      "Hyperion": {
+        "impulseAccuracy": 0.2,
+        "weaponDamage": 0.1,
+        "weaponSpread": -0.15
+      }
+    }
+  },
+  {
+    "id": "Invader Barrel",
+    "type": "barrel",
+    "class": "Sniper",
+    "manufacturer": "",
+    "statModifiers": {
+      "impulseAccuracy": 2.0,
+      "magSize": 7.0,
+      "minAccuracy": 3.0,
+      "reloadTime": 4.0,
+      "weaponDamage": -1.0
+    },
+    "compatibilityBonus": {
+      "Hyperion": {
+        "impulseAccuracy": 0.2
+      },
+      "Zoom": {
+        "burstCount": 5.0,
+        "fireInterval": -7.0
+      }
+    }
+  },
+  {
+    "id": "Invader (TPS) Barrel",
+    "type": "barrel",
+    "class": "Sniper",
+    "manufacturer": "",
+    "statModifiers": {
+      "impulseAccuracy": 2.0,
+      "magSize": 10.0,
+      "minAccuracy": 3.0,
+      "reloadTime": 4.0,
+      "weaponDamage": -1.0
+    },
+    "compatibilityBonus": {
+      "Hyperion": {
+        "impulseAccuracy": 0.2
+      },
+      "Zoom": {
+        "burstCount": 5.0,
+        "fireInterval": -7.0
+      }
+    }
+  },
+  {
+    "id": "Jakobs (Anemone) Barrel",
+    "type": "barrel",
+    "class": "Sniper",
+    "manufacturer": "Jakobs",
+    "statModifiers": {
+      "fireInterval": -6.0,
+      "impulseAccuracy": -5.0,
+      "minAccuracy": 5.0,
+      "weaponDamage": 6.0,
+      "weaponSpread": 6.0
+    },
+    "compatibilityBonus": {
+      "Jakobs": {
+        "impulseAccuracy": -0.2,
+        "weaponDamage": 0.15,
+        "weaponSpread": -0.15
+      }
+    }
+  },
+  {
+    "id": "Longbow Barrel",
+    "type": "barrel",
+    "class": "Sniper",
+    "manufacturer": "",
+    "statModifiers": {
+      "critDamage": 0.5,
+      "fireInterval": -1.0,
+      "maxAccuracy": -0.8,
+      "minAccuracy": -0.4,
+      "statusChanceModifier": 0.35,
+      "weaponDamage": 1.5,
+      "weaponSpread": -0.4
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Longnail Barrel",
+    "type": "barrel",
+    "class": "Sniper",
+    "manufacturer": "",
+    "statModifiers": {
+      "fireInterval": 10.0,
+      "impulseAccuracy": 10.0,
+      "magSize": 5.0,
+      "weaponDamage": -20.0,
+      "weaponSpread": 5.0
+    },
+    "compatibilityBonus": {
+      "Vladof": {
+        "magSize": 4.0
+      }
+    }
+  },
+  {
+    "id": "Lyuda Barrel",
+    "type": "barrel",
+    "class": "Sniper",
+    "manufacturer": "",
+    "statModifiers": {
+      "critDamage": 0.25,
+      "fireInterval": 10.0,
+      "impulseAccuracy": 20.0,
+      "magSize": 10.0,
+      "weaponDamage": 0.25,
+      "weaponSpread": 5.0
+    },
+    "compatibilityBonus": {
+      "Vladof": {
+        "magSize": 4.0
+      }
+    }
+  },
+  {
+    "id": "Magma Barrel",
+    "type": "barrel",
+    "class": "Sniper",
+    "manufacturer": "",
+    "statModifiers": {
+      "maxAccuracy": 2.0,
+      "weaponDamage": -0.05,
+      "weaponSpread": 2.0
+    },
+    "compatibilityBonus": {
+      "Maliwan": {
+        "statusChanceModifier": 0.2,
+        "weaponSpread": -0.3
+      }
+    }
+  },
+  {
+    "id": "Maliwan (Anemone) Barrel",
+    "type": "barrel",
+    "class": "Sniper",
+    "manufacturer": "Maliwan",
+    "statModifiers": {
+      "maxAccuracy": 2.0,
+      "statusChanceModifier": 0.15,
+      "weaponSpread": 2.0
+    },
+    "compatibilityBonus": {
+      "Maliwan": {
+        "statusChanceModifier": 0.1,
+        "weaponDamage": 0.1,
+        "weaponSpread": -0.3
+      }
+    }
+  },
+  {
+    "id": "Morningstar Barrel",
+    "type": "barrel",
+    "class": "Sniper",
+    "manufacturer": "",
+    "statModifiers": {
+      "maxAccuracy": 2.0,
+      "weaponDamage": 0.15,
+      "weaponSpread": 2.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Omni-Cannon Barrel",
+    "type": "barrel",
+    "class": "Sniper",
+    "manufacturer": "",
+    "statModifiers": {
+      "fireInterval": 0.2,
+      "impulseAccuracy": 2.0,
+      "magSize": -2.0,
+      "maxAccuracy": -3.0,
+      "minAccuracy": -3.0,
+      "reloadTime": 0.15,
+      "weaponDamage": 0.3,
+      "weaponSpread": 5.0
+    },
+    "compatibilityBonus": {
+      "Hyperion": {
+        "impulseAccuracy": 0.2,
+        "weaponSpread": -2.0
+      }
+    }
+  },
+  {
+    "id": "Patriot Barrel",
+    "type": "barrel",
+    "class": "Sniper",
+    "manufacturer": "",
+    "statModifiers": {
+      "accuracyRegen": -20.0,
+      "magSize": -0.2,
+      "maxAccuracy": -5.0,
+      "minAccuracy": -5.0,
+      "projectileSpeed": -0.8,
+      "reloadTime": 0.35,
+      "weaponDamage": 0.6,
+      "weaponSpread": 2.5
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Pimpernel Barrel",
+    "type": "barrel",
+    "class": "Sniper",
+    "manufacturer": "",
+    "statModifiers": {
+      "accuracyRegen": 5.0,
+      "burstImpulseScale": 3.0,
+      "impulseAccuracy": 8.0,
+      "maxAccuracy": 5.0,
+      "weaponDamage": -3.0,
+      "weaponSpread": -4.0
+    },
+    "compatibilityBonus": {
+      "Dahl + Zoom": {
+        "burstCount": 2.0
+      },
+      "Dahl": {
+        "weaponDamage": 0.1,
+        "weaponSpread": -0.3
+      }
+    }
+  },
+  {
+    "id": "Pitchfork Barrel",
+    "type": "barrel",
+    "class": "Sniper",
+    "manufacturer": "",
+    "statModifiers": {
+      "accuracyRegen": 5.0,
+      "burstImpulseScale": 10.0,
+      "impulseAccuracy": 8.0,
+      "magSize": 5.0,
+      "maxAccuracy": 5.0,
+      "shotCost": 1.0,
+      "weaponDamage": -0.25,
+      "weaponSpread": 6.0
+    },
+    "compatibilityBonus": {
+      "Dahl + Zoom": {
+        "burstCount": 1.0
+      },
+      "Dahl": {
+        "weaponSpread": -0.3
+      }
+    }
+  },
+  {
+    "id": "Plunkett Barrel",
+    "type": "barrel",
+    "class": "Sniper",
+    "manufacturer": "",
+    "statModifiers": {
+      "fireInterval": -2.0,
+      "impulseAccuracy": -5.0,
+      "magSize": -7.0,
+      "minAccuracy": 5.0,
+      "weaponDamage": 6.0,
+      "weaponSpread": 6.0
+    },
+    "compatibilityBonus": {
+      "Jakobs": {
+        "impulseAccuracy": -0.2,
+        "weaponDamage": 0.15,
+        "weaponSpread": -0.15
+      }
+    }
+  },
+  {
+    "id": "Razorback Barrel",
+    "type": "barrel",
+    "class": "Sniper",
+    "manufacturer": "",
+    "statModifiers": {
+      "fireInterval": -6.0,
+      "impulseAccuracy": 1.0,
+      "minAccuracy": 5.0,
+      "weaponDamage": 0.5,
+      "weaponSpread": 6.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Skullmasher Barrel",
+    "type": "barrel",
+    "class": "Sniper",
+    "manufacturer": "",
+    "statModifiers": {
+      "fireInterval": -6.0,
+      "impulseAccuracy": 4.0,
+      "minAccuracy": 5.0,
+      "projectileCount": 4.0,
+      "weaponDamage": -2.0,
+      "weaponSpread": 1.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Skullmasher (TPS) Barrel",
+    "type": "barrel",
+    "class": "Sniper",
+    "manufacturer": "",
+    "statModifiers": {
+      "fireInterval": -6.0,
+      "impulseAccuracy": 5.0,
+      "minAccuracy": 5.0,
+      "projectileCount": 5.0,
+      "weaponDamage": -2.0,
+      "weaponSpread": 1.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Sloth Barrel",
+    "type": "barrel",
+    "class": "Sniper",
+    "manufacturer": "",
+    "statModifiers": {
+      "accuracyRegen": 5.0,
+      "burstImpulseScale": 3.0,
+      "impulseAccuracy": 8.0,
+      "maxAccuracy": 5.0,
+      "projectileSpeed": -5.0,
+      "weaponDamage": 0.7,
+      "weaponSpread": 4.0
+    },
+    "compatibilityBonus": {
+      "Dahl": {
+        "weaponSpread": -0.3
+      }
+    }
+  },
+  {
+    "id": "Storm Barrel",
+    "type": "barrel",
+    "class": "Sniper",
+    "manufacturer": "",
+    "statModifiers": {
+      "fireInterval": 0.3,
+      "maxAccuracy": 2.0,
+      "statusChanceModifier": 0.5,
+      "weaponDamage": 0.25,
+      "weaponSpread": 2.0
+    },
+    "compatibilityBonus": {
+      "Maliwan": {
+        "weaponSpread": -0.3
+      }
+    }
+  },
+  {
+    "id": "The Machine Barrel",
+    "type": "barrel",
+    "class": "Sniper",
+    "manufacturer": "",
+    "statModifiers": {
+      "fireInterval": 20.0,
+      "impulseAccuracy": 10.0,
+      "magSize": 10.0,
+      "weaponSpread": -4.0
+    },
+    "compatibilityBonus": {
+      "Vladof": {
+        "magSize": 8.0,
+        "weaponDamage": 0.1
+      }
+    }
+  },
+  {
+    "id": "Trespasser Barrel",
+    "type": "barrel",
+    "class": "Sniper",
+    "manufacturer": "",
+    "statModifiers": {
+      "fireInterval": -6.0,
+      "impulseAccuracy": 2.0,
+      "magSize": -2.0,
+      "minAccuracy": 5.0,
+      "weaponDamage": -8.0,
+      "weaponSpread": 5.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Vladof (Anemone) Barrel",
+    "type": "barrel",
+    "class": "Sniper",
+    "manufacturer": "Vladof",
+    "statModifiers": {
+      "fireInterval": 10.0,
+      "impulseAccuracy": 10.0,
+      "magSize": 10.0,
+      "weaponSpread": -4.0
+    },
+    "compatibilityBonus": {
+      "Vladof": {
+        "magSize": 4.0,
+        "weaponDamage": 0.1
+      }
+    }
+  },
+  {
+    "id": "Volcano Barrel",
+    "type": "barrel",
+    "class": "Sniper",
+    "manufacturer": "",
+    "statModifiers": {
+      "maxAccuracy": 2.0,
+      "weaponDamage": -0.05,
+      "weaponSpread": 2.0
+    },
+    "compatibilityBonus": {
+      "Maliwan": {
+        "statusChanceModifier": 0.2,
+        "weaponSpread": -0.3
+      }
+    }
+  },
+  {
+    "id": "Wet Week Barrel",
+    "type": "barrel",
+    "class": "Sniper",
+    "manufacturer": "",
+    "statModifiers": {
+      "accuracyRegen": 5.0,
+      "burstImpulseScale": 3.0,
+      "impulseAccuracy": 8.0,
+      "maxAccuracy": 5.0,
+      "projectileSpeed": -5.0,
+      "weaponDamage": 0.7,
+      "weaponSpread": 4.0
+    },
+    "compatibilityBonus": {
+      "Dahl": {
+        "weaponSpread": -0.3
+      }
+    }
+  },
+  {
+    "id": "Dahl (Common)",
+    "type": "body",
+    "class": "Sniper",
+    "manufacturer": "Dahl",
+    "statModifiers": {},
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Dahl (Rare)",
+    "type": "body",
+    "class": "Sniper",
+    "manufacturer": "Dahl",
+    "statModifiers": {
+      "magSize": 5.0,
+      "weaponDamage": 16.0,
+      "weaponSpread": 5.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Dahl (Uncommon)",
+    "type": "body",
+    "class": "Sniper",
+    "manufacturer": "Dahl",
+    "statModifiers": {
+      "magSize": 3.0,
+      "weaponDamage": 8.0,
+      "weaponSpread": 3.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Dahl (Very Rare)",
+    "type": "body",
+    "class": "Sniper",
+    "manufacturer": "Dahl",
+    "statModifiers": {
+      "magSize": 7.0,
+      "weaponDamage": 24.0,
+      "weaponSpread": 7.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Hyperion (Common)",
+    "type": "body",
+    "class": "Sniper",
+    "manufacturer": "Hyperion",
+    "statModifiers": {},
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Hyperion (Rare)",
+    "type": "body",
+    "class": "Sniper",
+    "manufacturer": "Hyperion",
+    "statModifiers": {
+      "magSize": 5.0,
+      "weaponDamage": 16.0,
+      "weaponSpread": 5.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Hyperion (Uncommon)",
+    "type": "body",
+    "class": "Sniper",
+    "manufacturer": "Hyperion",
+    "statModifiers": {
+      "magSize": 3.0,
+      "weaponDamage": 8.0,
+      "weaponSpread": 3.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Hyperion (Very Rare)",
+    "type": "body",
+    "class": "Sniper",
+    "manufacturer": "Hyperion",
+    "statModifiers": {
+      "magSize": 7.0,
+      "weaponDamage": 24.0,
+      "weaponSpread": 7.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Jakobs (Common)",
+    "type": "body",
+    "class": "Sniper",
+    "manufacturer": "Jakobs",
+    "statModifiers": {
+      "fireInterval": 1.2,
+      "weaponDamage": 0.15
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Jakobs (Rare)",
+    "type": "body",
+    "class": "Sniper",
+    "manufacturer": "Jakobs",
+    "statModifiers": {
+      "fireInterval": 1.2,
+      "magSize": 5.0,
+      "weaponDamage": 0.15,
+      "weaponSpread": 5.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Jakobs (Uncommon)",
+    "type": "body",
+    "class": "Sniper",
+    "manufacturer": "Jakobs",
+    "statModifiers": {
+      "magSize": 3.0,
+      "weaponDamage": 8.0,
+      "weaponSpread": 3.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Jakobs (Very Rare)",
+    "type": "body",
+    "class": "Sniper",
+    "manufacturer": "Jakobs",
+    "statModifiers": {
+      "magSize": 7.0,
+      "weaponDamage": 24.0,
+      "weaponSpread": 7.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Maliwan (Common)",
+    "type": "body",
+    "class": "Sniper",
+    "manufacturer": "Maliwan",
+    "statModifiers": {},
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Maliwan (Rare)",
+    "type": "body",
+    "class": "Sniper",
+    "manufacturer": "Maliwan",
+    "statModifiers": {
+      "magSize": 5.0,
+      "weaponDamage": 16.0,
+      "weaponSpread": 5.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Maliwan (Uncommon)",
+    "type": "body",
+    "class": "Sniper",
+    "manufacturer": "Maliwan",
+    "statModifiers": {
+      "magSize": 3.0,
+      "weaponDamage": 8.0,
+      "weaponSpread": 3.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Maliwan (Very Rare)",
+    "type": "body",
+    "class": "Sniper",
+    "manufacturer": "Maliwan",
+    "statModifiers": {
+      "magSize": 7.0,
+      "weaponDamage": 24.0,
+      "weaponSpread": 7.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Vladof (Common)",
+    "type": "body",
+    "class": "Sniper",
+    "manufacturer": "Vladof",
+    "statModifiers": {},
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Vladof (Rare)",
+    "type": "body",
+    "class": "Sniper",
+    "manufacturer": "Vladof",
+    "statModifiers": {
+      "magSize": 5.0,
+      "weaponDamage": 16.0,
+      "weaponSpread": 5.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Vladof (Uncommon)",
+    "type": "body",
+    "class": "Sniper",
+    "manufacturer": "Vladof",
+    "statModifiers": {
+      "magSize": 3.0,
+      "weaponDamage": 8.0,
+      "weaponSpread": 3.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Vladof (Very Rare)",
+    "type": "body",
+    "class": "Sniper",
+    "manufacturer": "Vladof",
+    "statModifiers": {
+      "magSize": 7.0,
+      "weaponDamage": 24.0,
+      "weaponSpread": 7.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Elephant Gun",
+    "type": "body",
+    "class": "Sniper",
+    "manufacturer": "",
+    "statModifiers": {
+      "fireInterval": 1.2,
+      "weaponDamage": 0.15
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Gearbox",
+    "type": "body",
+    "class": "Sniper",
+    "manufacturer": "",
+    "statModifiers": {
+      "fireInterval": 1.0,
+      "weaponDamage": 0.2
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Godfinger",
+    "type": "body",
+    "class": "Sniper",
+    "manufacturer": "",
+    "statModifiers": {
+      "fireInterval": 1.2,
+      "magSize": 7.0,
+      "weaponDamage": 0.15,
+      "weaponSpread": 7.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Hot Mama",
+    "type": "body",
+    "class": "Sniper",
+    "manufacturer": "",
+    "statModifiers": {
+      "fireInterval": 1.2,
+      "magSize": 10.0,
+      "weaponDamage": 0.25,
+      "weaponSpread": 10.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Jakobs (Common, Anemone)",
+    "type": "body",
+    "class": "Sniper",
+    "manufacturer": "Jakobs",
+    "statModifiers": {
+      "fireInterval": 1.2,
+      "weaponDamage": 0.15
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Jakobs (Rare, Anemone)",
+    "type": "body",
+    "class": "Sniper",
+    "manufacturer": "Jakobs",
+    "statModifiers": {
+      "fireInterval": 1.2,
+      "magSize": 5.0,
+      "weaponDamage": 0.15,
+      "weaponSpread": 5.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Jakobs (Uncommon, Anemone)",
+    "type": "body",
+    "class": "Sniper",
+    "manufacturer": "Jakobs",
+    "statModifiers": {
+      "magSize": 3.0,
+      "weaponDamage": 8.0,
+      "weaponSpread": 3.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Jakobs (Very Rare, Anemone)",
+    "type": "body",
+    "class": "Sniper",
+    "manufacturer": "Jakobs",
+    "statModifiers": {
+      "magSize": 7.0,
+      "weaponDamage": 24.0,
+      "weaponSpread": 7.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Storm",
+    "type": "body",
+    "class": "Sniper",
+    "manufacturer": "",
+    "statModifiers": {
+      "magSize": 7.0,
+      "weaponDamage": 24.0,
+      "weaponSpread": 7.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Dahl",
+    "type": "definition",
+    "class": "Sniper",
+    "manufacturer": "Dahl",
+    "statModifiers": {
+      "critDamage": 1.0
+    },
+    "compatibilityBonus": {
+      "Zoom": {
+        "burstCount": 2.0,
+        "impulseAccuracy": 3.0,
+        "minAccuracy": -1.0,
+        "weaponSpread": -0.8
+      }
+    }
+  },
+  {
+    "id": "Hyperion (BL2)",
+    "type": "definition",
+    "class": "Sniper",
+    "manufacturer": "Hyperion",
+    "statModifiers": {
+      "accuracyRegen": 12.0,
+      "critDamage": 1.0,
+      "maxAccuracy": -2.0,
+      "projectileSpeed": 0.6
+    },
+    "compatibilityBonus": {
+      "Zoom": {
+        "accuracyRegen": -5.5,
+        "maxAccuracy": -3.0,
+        "minAccuracy": -1.0,
+        "weaponSpread": -0.8
+      }
+    }
+  },
+  {
+    "id": "Hyperion (TPS)",
+    "type": "definition",
+    "class": "Sniper",
+    "manufacturer": "Hyperion",
+    "statModifiers": {
+      "accuracyRegen": 12.0,
+      "critDamage": 1.0,
+      "maxAccuracy": -2.0,
+      "projectileSpeed": 0.6
+    },
+    "compatibilityBonus": {
+      "Zoom": {
+        "accuracyRegen": -5.5,
+        "maxAccuracy": -1.0,
+        "minAccuracy": -1.0,
+        "weaponSpread": -0.8
+      }
+    }
+  },
+  {
+    "id": "Jakobs",
+    "type": "definition",
+    "class": "Sniper",
+    "manufacturer": "Jakobs",
+    "statModifiers": {
+      "accuracyRegen": 2.0,
+      "critDamage": 1.6,
+      "maxAccuracy": 2.0,
+      "projectileSpeed": 0.3
+    },
+    "compatibilityBonus": {
+      "Zoom": {
+        "minAccuracy": -1.0,
+        "weaponSpread": -0.7
+      }
+    }
+  },
+  {
+    "id": "Maliwan",
+    "type": "definition",
+    "class": "Sniper",
+    "manufacturer": "Maliwan",
+    "statModifiers": {
+      "critDamage": 1.0,
+      "statusChanceModifier": 0.25,
+      "statusEffectDamage": 0.2
+    },
+    "compatibilityBonus": {
+      "Zoom": {
+        "minAccuracy": -1.0,
+        "weaponSpread": -0.8
+      }
+    }
+  },
+  {
+    "id": "Vladof",
+    "type": "definition",
+    "class": "Sniper",
+    "manufacturer": "Vladof",
+    "statModifiers": {
+      "critDamage": 1.0
+    },
+    "compatibilityBonus": {
+      "Zoom": {
+        "minAccuracy": -1.0,
+        "weaponSpread": -0.7
+      }
+    }
+  },
+  {
+    "id": "Hot Mama",
+    "type": "definition",
+    "class": "Sniper",
+    "manufacturer": "",
+    "statModifiers": {
+      "accuracyRegen": 2.0,
+      "critDamage": 1.6,
+      "maxAccuracy": 2.0,
+      "projectileSpeed": 0.3
+    },
+    "compatibilityBonus": {
+      "Zoom": {
+        "minAccuracy": -1.0,
+        "weaponSpread": -0.7
+      }
+    }
+  },
+  {
+    "id": "\"No Element\"",
+    "type": "element",
+    "class": "Sniper",
+    "manufacturer": "",
+    "statModifiers": {},
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Corrosive",
+    "type": "element",
+    "class": "Sniper",
+    "manufacturer": "",
+    "statModifiers": {
+      "weaponDamage": -0.2
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Cryo",
+    "type": "element",
+    "class": "Sniper",
+    "manufacturer": "",
+    "statModifiers": {
+      "weaponDamage": -0.2
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Fire",
+    "type": "element",
+    "class": "Sniper",
+    "manufacturer": "",
+    "statModifiers": {
+      "weaponDamage": -0.2
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Shock",
+    "type": "element",
+    "class": "Sniper",
+    "manufacturer": "",
+    "statModifiers": {
+      "weaponDamage": -0.2
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Slag",
+    "type": "element",
+    "class": "Sniper",
+    "manufacturer": "",
+    "statModifiers": {
+      "weaponDamage": -0.2
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Dahl Grip",
+    "type": "grip",
+    "class": "Sniper",
+    "manufacturer": "Dahl",
+    "statModifiers": {
+      "accuracyRegen": 2.0,
+      "impulseAccuracy": 3.0,
+      "maxAccuracy": -3.0,
+      "weaponDamage": -2.0
+    },
+    "compatibilityBonus": {
+      "Dahl": {
+        "magSize": 3.0,
+        "reloadTime": -0.3
+      }
+    }
+  },
+  {
+    "id": "Hyperion Grip",
+    "type": "grip",
+    "class": "Sniper",
+    "manufacturer": "Hyperion",
+    "statModifiers": {
+      "accuracyRegen": 2.0,
+      "weaponDamage": -3.0,
+      "weaponSpread": 3.0
+    },
+    "compatibilityBonus": {
+      "Hyperion": {
+        "magSize": 3.0,
+        "reloadTime": -0.3
+      }
+    }
+  },
+  {
+    "id": "Jakobs Grip",
+    "type": "grip",
+    "class": "Sniper",
+    "manufacturer": "Jakobs",
+    "statModifiers": {
+      "fireInterval": -3.0,
+      "impulseAccuracy": -2.0,
+      "reloadTime": -1.0,
+      "weaponDamage": 4.0
+    },
+    "compatibilityBonus": {
+      "Jakobs": {
+        "impulseAccuracy": -0.2,
+        "magSize": 1.0,
+        "reloadTime": -0.3
+      }
+    }
+  },
+  {
+    "id": "Maliwan Grip",
+    "type": "grip",
+    "class": "Sniper",
+    "manufacturer": "Maliwan",
+    "statModifiers": {
+      "statusChanceModifier": 0.15
+    },
+    "compatibilityBonus": {
+      "Maliwan": {
+        "magSize": 3.0,
+        "reloadTime": -0.3
+      }
+    }
+  },
+  {
+    "id": "Vladof Grip",
+    "type": "grip",
+    "class": "Sniper",
+    "manufacturer": "Vladof",
+    "statModifiers": {
+      "accuracyRegen": -2.0,
+      "fireInterval": 4.0,
+      "weaponDamage": -2.0
+    },
+    "compatibilityBonus": {
+      "Jakobs": {
+        "reloadTime": -0.15
+      },
+      "Vladof": {
+        "magSize": 3.0,
+        "reloadTime": -0.3
+      }
+    }
+  },
+  {
+    "id": "Dahl (Anemone) Grip",
+    "type": "grip",
+    "class": "Sniper",
+    "manufacturer": "Dahl",
+    "statModifiers": {
+      "accuracyRegen": 2.0,
+      "impulseAccuracy": 3.0,
+      "maxAccuracy": -3.0,
+      "weaponDamage": -2.0
+    },
+    "compatibilityBonus": {
+      "Dahl": {
+        "magSize": 3.0,
+        "reloadTime": -0.3
+      }
+    }
+  },
+  {
+    "id": "Hyperion (Anemone) Grip",
+    "type": "grip",
+    "class": "Sniper",
+    "manufacturer": "Hyperion",
+    "statModifiers": {
+      "accuracyRegen": 2.0,
+      "weaponDamage": -3.0,
+      "weaponSpread": 3.0
+    },
+    "compatibilityBonus": {
+      "Hyperion": {
+        "magSize": 3.0,
+        "reloadTime": -0.3
+      }
+    }
+  },
+  {
+    "id": "Jakobs (Anemone) Grip",
+    "type": "grip",
+    "class": "Sniper",
+    "manufacturer": "Jakobs",
+    "statModifiers": {
+      "fireInterval": -3.0,
+      "impulseAccuracy": -2.0,
+      "reloadTime": -1.0,
+      "weaponDamage": 4.0
+    },
+    "compatibilityBonus": {
+      "Jakobs": {
+        "impulseAccuracy": -0.2,
+        "magSize": 1.0,
+        "reloadTime": -0.3
+      }
+    }
+  },
+  {
+    "id": "Maliwan (Anemone) Grip",
+    "type": "grip",
+    "class": "Sniper",
+    "manufacturer": "Maliwan",
+    "statModifiers": {
+      "statusChanceModifier": 0.15
+    },
+    "compatibilityBonus": {
+      "Maliwan": {
+        "magSize": 3.0,
+        "reloadTime": -0.3
+      }
+    }
+  },
+  {
+    "id": "The Machine Grip",
+    "type": "grip",
+    "class": "Sniper",
+    "manufacturer": "",
+    "statModifiers": {
+      "accuracyRegen": -2.0,
+      "fireInterval": 4.0,
+      "weaponDamage": -2.0
+    },
+    "compatibilityBonus": {
+      "Jakobs": {
+        "reloadTime": -0.15
+      },
+      "Vladof": {
+        "magSize": 6.0,
+        "reloadTime": -0.3
+      }
+    }
+  },
+  {
+    "id": "Vladof (Anemone) Grip",
+    "type": "grip",
+    "class": "Sniper",
+    "manufacturer": "Vladof",
+    "statModifiers": {
+      "accuracyRegen": -2.0,
+      "fireInterval": 4.0,
+      "weaponDamage": -2.0
+    },
+    "compatibilityBonus": {
+      "Jakobs": {
+        "reloadTime": -0.15
+      },
+      "Vladof": {
+        "magSize": 3.0,
+        "reloadTime": -0.3
+      }
+    }
+  },
+  {
+    "id": "Dahl Stock",
+    "type": "stock",
+    "class": "Sniper",
+    "manufacturer": "Dahl",
+    "statModifiers": {
+      "accuracyRegen": 4.0,
+      "impulseAccuracy": 4.0,
+      "maxAccuracy": 6.0,
+      "minAccuracy": -6.0
+    },
+    "compatibilityBonus": {
+      "Dahl + Zoom": {
+        "burstCount": 1.0
+      }
+    }
+  },
+  {
+    "id": "Hyperion Stock",
+    "type": "stock",
+    "class": "Sniper",
+    "manufacturer": "Hyperion",
+    "statModifiers": {
+      "accuracyRegen": 4.0,
+      "minAccuracy": 8.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Jakobs Stock",
+    "type": "stock",
+    "class": "Sniper",
+    "manufacturer": "Jakobs",
+    "statModifiers": {
+      "accuracyRegen": -5.0,
+      "impulseAccuracy": -2.0,
+      "maxAccuracy": -5.0,
+      "minAccuracy": 10.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Maliwan Stock",
+    "type": "stock",
+    "class": "Sniper",
+    "manufacturer": "Maliwan",
+    "statModifiers": {
+      "maxAccuracy": 2.0,
+      "minAccuracy": 2.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Vladof Stock",
+    "type": "stock",
+    "class": "Sniper",
+    "manufacturer": "Vladof",
+    "statModifiers": {
+      "accuracyRegen": 5.0,
+      "impulseAccuracy": -5.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Dahl (Anemone) Stock",
+    "type": "stock",
+    "class": "Sniper",
+    "manufacturer": "Dahl",
+    "statModifiers": {
+      "accuracyRegen": 4.0,
+      "impulseAccuracy": 4.0,
+      "maxAccuracy": 6.0,
+      "minAccuracy": -6.0
+    },
+    "compatibilityBonus": {
+      "Dahl + Zoom": {
+        "burstCount": 1.0
+      }
+    }
+  },
+  {
+    "id": "Hyperion (Anemone) Stock",
+    "type": "stock",
+    "class": "Sniper",
+    "manufacturer": "Hyperion",
+    "statModifiers": {
+      "accuracyRegen": 4.0,
+      "minAccuracy": 8.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Jakobs (Anemone) Stock",
+    "type": "stock",
+    "class": "Sniper",
+    "manufacturer": "Jakobs",
+    "statModifiers": {
+      "accuracyRegen": -5.0,
+      "impulseAccuracy": -2.0,
+      "maxAccuracy": -5.0,
+      "minAccuracy": 10.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Maliwan (Anemone) Stock",
+    "type": "stock",
+    "class": "Sniper",
+    "manufacturer": "Maliwan",
+    "statModifiers": {
+      "maxAccuracy": 2.0,
+      "minAccuracy": 2.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Vladof (Anemone) Stock",
+    "type": "stock",
+    "class": "Sniper",
+    "manufacturer": "Vladof",
+    "statModifiers": {
+      "accuracyRegen": 5.0,
+      "impulseAccuracy": -5.0
+    },
+    "compatibilityBonus": {}
+  }
+]

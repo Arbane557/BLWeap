@@ -1,0 +1,1692 @@
+[
+  {
+    "id": "\"No Accessory\"",
+    "type": "accessory",
+    "class": "Rifle",
+    "manufacturer": "",
+    "statModifiers": {},
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Bayonet 1",
+    "type": "accessory",
+    "class": "Rifle",
+    "manufacturer": "",
+    "statModifiers": {
+      "meleeDamage": 0.5
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Bayonet 2",
+    "type": "accessory",
+    "class": "Rifle",
+    "manufacturer": "",
+    "statModifiers": {
+      "meleeDamage": 0.5
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Box",
+    "type": "accessory",
+    "class": "Rifle",
+    "manufacturer": "",
+    "statModifiers": {
+      "fireInterval": 5.0,
+      "projectileSpeed": 1.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Damage Clamp",
+    "type": "accessory",
+    "class": "Rifle",
+    "manufacturer": "",
+    "statModifiers": {
+      "fireInterval": -4.0,
+      "impulseAccuracy": -7.0,
+      "weaponDamage": 7.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Foregrip",
+    "type": "accessory",
+    "class": "Rifle",
+    "manufacturer": "",
+    "statModifiers": {
+      "accuracyRegen": 5.0,
+      "impulseAccuracy": 8.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Shroud 1 Mag",
+    "type": "accessory",
+    "class": "Rifle",
+    "manufacturer": "",
+    "statModifiers": {
+      "magSize": 3.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Shroud 2 Accuracy",
+    "type": "accessory",
+    "class": "Rifle",
+    "manufacturer": "",
+    "statModifiers": {
+      "minAccuracy": 5.0,
+      "weaponSpread": 5.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Wild Clamp",
+    "type": "accessory",
+    "class": "Rifle",
+    "manufacturer": "",
+    "statModifiers": {
+      "fireInterval": 4.0,
+      "weaponDamage": 7.0,
+      "weaponSpread": -24.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Alt Accessories",
+    "type": "accessory",
+    "class": "Rifle",
+    "manufacturer": "",
+    "statModifiers": {},
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Cry Baby (Rapid)",
+    "type": "accessory",
+    "class": "Rifle",
+    "manufacturer": "",
+    "statModifiers": {
+      "fireInterval": -0.5,
+      "weaponDamage": -0.3
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Cry Baby (Triple)",
+    "type": "accessory",
+    "class": "Rifle",
+    "manufacturer": "",
+    "statModifiers": {
+      "fireInterval": 0.4,
+      "projectileCount": 2.0,
+      "weaponDamage": -0.35
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Rapier",
+    "type": "accessory",
+    "class": "Rifle",
+    "manufacturer": "",
+    "statModifiers": {},
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Bandit Barrel",
+    "type": "barrel",
+    "class": "Rifle",
+    "manufacturer": "Bandit",
+    "statModifiers": {
+      "minAccuracy": -3.0,
+      "weaponDamage": 2.0,
+      "weaponSpread": -3.0
+    },
+    "compatibilityBonus": {
+      "Bandit": {
+        "impulseAccuracy": -0.7,
+        "weaponDamage": 0.05
+      }
+    }
+  },
+  {
+    "id": "Dahl Barrel",
+    "type": "barrel",
+    "class": "Rifle",
+    "manufacturer": "Dahl",
+    "statModifiers": {
+      "accuracyRegen": 5.0,
+      "burstImpulseScale": 3.0,
+      "impulseAccuracy": 8.0,
+      "maxAccuracy": 5.0,
+      "weaponDamage": -3.0,
+      "weaponSpread": -4.0
+    },
+    "compatibilityBonus": {
+      "Dahl + Zoom": {
+        "burstCount": 2.0
+      },
+      "Dahl": {
+        "weaponDamage": 0.1,
+        "weaponSpread": -0.3
+      }
+    }
+  },
+  {
+    "id": "E-Tech",
+    "type": "barrel",
+    "class": "Rifle",
+    "manufacturer": "",
+    "statModifiers": {
+      "critDamage": -0.5,
+      "fireInterval": -0.15,
+      "impulseAccuracy": -2.0,
+      "magSize": 0.8,
+      "maxAccuracy": -1.0,
+      "minAccuracy": -1.0,
+      "shotCost": 1.0,
+      "statusChanceModifier": 0.2,
+      "weaponDamage": 0.8
+    },
+    "compatibilityBonus": {
+      "Bandit": {
+        "magSize": 30.0
+      },
+      "Vladof": {
+        "additionalRicochets": 1.0,
+        "projectileSpeed": 0.5
+      }
+    }
+  },
+  {
+    "id": "E-Tech (Dahl) Barrel",
+    "type": "barrel",
+    "class": "Rifle",
+    "manufacturer": "Dahl",
+    "statModifiers": {
+      "critDamage": -0.5,
+      "fireInterval": -0.15,
+      "impulseAccuracy": -2.0,
+      "magSize": 0.8,
+      "maxAccuracy": -1.0,
+      "minAccuracy": -1.0,
+      "shotCost": 1.0,
+      "statusChanceModifier": 0.2,
+      "weaponDamage": 0.8
+    },
+    "compatibilityBonus": {
+      "Zoom": {
+        "projectileCount": 2.0,
+        "shotCost": 1.0,
+        "weaponSpread": -0.5
+      }
+    }
+  },
+  {
+    "id": "Jakobs Barrel",
+    "type": "barrel",
+    "class": "Rifle",
+    "manufacturer": "Jakobs",
+    "statModifiers": {
+      "fireInterval": -6.0,
+      "impulseAccuracy": -5.0,
+      "minAccuracy": 5.0,
+      "weaponDamage": 6.0,
+      "weaponSpread": 6.0
+    },
+    "compatibilityBonus": {
+      "Jakobs": {
+        "impulseAccuracy": -0.2,
+        "weaponDamage": 0.15,
+        "weaponSpread": -0.15
+      }
+    }
+  },
+  {
+    "id": "Torgue (Bandit) Barrel",
+    "type": "barrel",
+    "class": "Rifle",
+    "manufacturer": "Bandit",
+    "statModifiers": {
+      "fireInterval": -30.0,
+      "impulseAccuracy": -5.0,
+      "magSize": 8.0,
+      "reloadTime": -5.0,
+      "shotCost": 2.0,
+      "weaponDamage": 1.5
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Torgue (Dahl) Barrel",
+    "type": "barrel",
+    "class": "Rifle",
+    "manufacturer": "Dahl",
+    "statModifiers": {
+      "fireInterval": -25.0,
+      "magSize": 4.0,
+      "reloadTime": -5.0,
+      "shotCost": 2.0,
+      "weaponDamage": 1.6
+    },
+    "compatibilityBonus": {
+      "Zoom": {
+        "fireInterval": -0.6
+      }
+    }
+  },
+  {
+    "id": "Torgue (Jakobs) Barrel",
+    "type": "barrel",
+    "class": "Rifle",
+    "manufacturer": "Jakobs",
+    "statModifiers": {
+      "fireInterval": -30.0,
+      "impulseAccuracy": -5.0,
+      "magSize": 4.0,
+      "reloadTime": -5.0,
+      "shotCost": 1.0,
+      "weaponDamage": 1.5
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Torgue (Torgue) Barrel",
+    "type": "barrel",
+    "class": "Rifle",
+    "manufacturer": "Torgue",
+    "statModifiers": {
+      "fireInterval": -30.0,
+      "impulseAccuracy": -5.0,
+      "magSize": 5.0,
+      "reloadTime": -5.0,
+      "shotCost": 3.0,
+      "weaponDamage": 2.6
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Torgue (Vladof) Barrel",
+    "type": "barrel",
+    "class": "Rifle",
+    "manufacturer": "Torgue",
+    "statModifiers": {
+      "fireInterval": -20.0,
+      "impulseAccuracy": -5.0,
+      "magSize": 5.0,
+      "reloadTime": -5.0,
+      "shotCost": 1.0,
+      "weaponDamage": 0.7
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Vladof Barrel",
+    "type": "barrel",
+    "class": "Rifle",
+    "manufacturer": "Vladof",
+    "statModifiers": {
+      "fireInterval": 5.0,
+      "impulseAccuracy": -2.0,
+      "magSize": 1.0,
+      "weaponSpread": -5.0
+    },
+    "compatibilityBonus": {
+      "Dahl": {
+        "burstCount": -1.0,
+        "impulseAccuracy": 1.0,
+        "magSize": 1.0,
+        "projectileCount": 1.0,
+        "shotCost": 1.0,
+        "weaponDamage": -0.1
+      },
+      "Vladof": {
+        "magSize": 5.0,
+        "weaponDamage": 0.1
+      }
+    }
+  },
+  {
+    "id": "Vladof Minigun Barrel",
+    "type": "barrel",
+    "class": "Rifle",
+    "manufacturer": "Vladof",
+    "statModifiers": {
+      "fireInterval": 10.0,
+      "impulseAccuracy": 10.0,
+      "magSize": 10.0,
+      "weaponSpread": -4.0
+    },
+    "compatibilityBonus": {
+      "Bandit": {
+        "barrelSpinUpTime": 0.5
+      },
+      "Dahl + Zoom": {
+        "fireInterval": 0.03,
+        "projectileCount": 2.0,
+        "shotCost": 2.0
+      },
+      "Jakobs": {
+        "impulseAccuracy": 2.0,
+        "projectileCount": 2.0,
+        "shotCost": 2.0,
+        "weaponSpread": 2.0
+      },
+      "Torgue": {
+        "extraShotChance": 0.25,
+        "magSize": 4.0
+      },
+      "Vladof": {
+        "barrelSpinUpTime": -0.25,
+        "magSize": 6.0,
+        "weaponDamage": 0.1
+      }
+    }
+  },
+  {
+    "id": "Bearcat Barrel",
+    "type": "barrel",
+    "class": "Rifle",
+    "manufacturer": "",
+    "statModifiers": {
+      "fireInterval": -25.0,
+      "magSize": 7.0,
+      "projectileCount": 2.0,
+      "reloadTime": -5.0,
+      "shotCost": 5.0,
+      "weaponDamage": 1.6
+    },
+    "compatibilityBonus": {
+      "Zoom": {
+        "fireInterval": -0.6
+      }
+    }
+  },
+  {
+    "id": "Bekah Barrel",
+    "type": "barrel",
+    "class": "Rifle",
+    "manufacturer": "",
+    "statModifiers": {
+      "critDamage": 0.5,
+      "impulseAccuracy": -0.5,
+      "minAccuracy": -3.0,
+      "weaponDamage": 0.5,
+      "weaponSpread": -3.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Boom Puppy Barrel",
+    "type": "barrel",
+    "class": "Rifle",
+    "manufacturer": "",
+    "statModifiers": {
+      "fireInterval": 0.6,
+      "magSize": 4.0,
+      "reloadTime": -5.0,
+      "shotCost": 2.0,
+      "weaponDamage": 1.5
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Chopper Barrel",
+    "type": "barrel",
+    "class": "Rifle",
+    "manufacturer": "",
+    "statModifiers": {
+      "burstCount": 1500.0,
+      "fireInterval": -0.08,
+      "impulseAccuracy": 10.0,
+      "magSize": 760.0,
+      "maxAccuracy": -10.0,
+      "projectileCount": 3.0,
+      "shotCost": 5.0,
+      "weaponDamage": 0.1,
+      "weaponSpread": 5.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Cry Baby Barrel",
+    "type": "barrel",
+    "class": "Rifle",
+    "manufacturer": "",
+    "statModifiers": {
+      "fireInterval": -5.0,
+      "minAccuracy": -3.0,
+      "weaponDamage": 2.0,
+      "weaponSpread": -3.0
+    },
+    "compatibilityBonus": {
+      "Bandit": {
+        "impulseAccuracy": -0.7,
+        "weaponDamage": 0.05
+      }
+    }
+  },
+  {
+    "id": "Cry Baby (Wiggle) Barrel",
+    "type": "barrel",
+    "class": "Rifle",
+    "manufacturer": "",
+    "statModifiers": {
+      "fireInterval": -5.0,
+      "minAccuracy": -3.0,
+      "weaponDamage": 2.0,
+      "weaponSpread": -3.0
+    },
+    "compatibilityBonus": {
+      "Bandit": {
+        "impulseAccuracy": -0.7,
+        "weaponDamage": 0.05
+      }
+    }
+  },
+  {
+    "id": "Damned Cowboy Barrel",
+    "type": "barrel",
+    "class": "Rifle",
+    "manufacturer": "",
+    "statModifiers": {
+      "critDamage": 0.35,
+      "fireInterval": 0.4,
+      "impulseAccuracy": 1.0,
+      "minAccuracy": 5.0,
+      "projectileSpeed": 1.0,
+      "reloadTime": 0.2,
+      "weaponDamage": 1.2,
+      "weaponSpread": 5.0,
+      "zoomFov": 3.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Evil Smasher Barrel",
+    "type": "barrel",
+    "class": "Rifle",
+    "manufacturer": "",
+    "statModifiers": {
+      "fireInterval": -20.0,
+      "impulseAccuracy": -20.0,
+      "magSize": -20.0,
+      "maxAccuracy": -20.0,
+      "minAccuracy": -20.0,
+      "reloadTime": -5.0,
+      "weaponDamage": -20.0,
+      "weaponSpread": -20.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Fusillade Barrel",
+    "type": "barrel",
+    "class": "Rifle",
+    "manufacturer": "",
+    "statModifiers": {
+      "fireInterval": -0.3,
+      "impulseAccuracy": -0.15,
+      "magSize": 0.15,
+      "minAccuracy": -3.0,
+      "reloadTime": -0.2,
+      "weaponDamage": 2.0,
+      "weaponSpread": -3.0
+    },
+    "compatibilityBonus": {
+      "Bandit": {
+        "impulseAccuracy": -0.7,
+        "weaponDamage": 0.15
+      }
+    }
+  },
+  {
+    "id": "Hail Barrel",
+    "type": "barrel",
+    "class": "Rifle",
+    "manufacturer": "",
+    "statModifiers": {
+      "accuracyRegen": 5.0,
+      "burstImpulseScale": 3.0,
+      "critDamage": 2.0,
+      "damageToHealing": 0.03,
+      "impulseAccuracy": 8.0,
+      "magSize": 5.0,
+      "maxAccuracy": 5.0,
+      "weaponDamage": 10.0,
+      "weaponSpread": 5.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Hammer Buster Barrel",
+    "type": "barrel",
+    "class": "Rifle",
+    "manufacturer": "",
+    "statModifiers": {
+      "accuracyRegen": 5.0,
+      "burstImpulseScale": 3.0,
+      "impulseAccuracy": 8.0,
+      "maxAccuracy": 5.0,
+      "weaponDamage": 1.15,
+      "weaponSpread": -4.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Hammer Buster II Barrel",
+    "type": "barrel",
+    "class": "Rifle",
+    "manufacturer": "",
+    "statModifiers": {
+      "accuracyRegen": 5.0,
+      "burstImpulseScale": 3.0,
+      "impulseAccuracy": 8.0,
+      "maxAccuracy": 5.0,
+      "weaponDamage": 1.125,
+      "weaponSpread": -4.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Ice Scream Barrel",
+    "type": "barrel",
+    "class": "Rifle",
+    "manufacturer": "",
+    "statModifiers": {
+      "fireInterval": 10.0,
+      "impulseAccuracy": 10.0,
+      "magSize": 15.0,
+      "weaponSpread": -4.0
+    },
+    "compatibilityBonus": {
+      "Bandit": {
+        "barrelSpinUpTime": 0.5
+      },
+      "Dahl + Zoom": {
+        "fireInterval": 0.03,
+        "projectileCount": 2.0,
+        "shotCost": 2.0
+      },
+      "Jakobs": {
+        "impulseAccuracy": 2.0,
+        "projectileCount": 2.0,
+        "shotCost": 2.0,
+        "weaponSpread": 2.0
+      },
+      "Torgue": {
+        "extraShotChance": 0.25,
+        "magSize": 4.0
+      },
+      "Vladof": {
+        "barrelSpinUpTime": -0.25,
+        "magSize": 6.0,
+        "weaponDamage": 0.1
+      }
+    }
+  },
+  {
+    "id": "KerBlaster Barrel",
+    "type": "barrel",
+    "class": "Rifle",
+    "manufacturer": "",
+    "statModifiers": {
+      "fireInterval": -20.0,
+      "impulseAccuracy": -5.0,
+      "magSize": 6.0,
+      "shotCost": 3.0,
+      "weaponDamage": 4.3
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "KerBoom Barrel",
+    "type": "barrel",
+    "class": "Rifle",
+    "manufacturer": "",
+    "statModifiers": {
+      "fireInterval": -70.0,
+      "impulseAccuracy": -5.0,
+      "magSize": 6.0,
+      "shotCost": 3.0,
+      "weaponDamage": 4.3
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Kitten Barrel",
+    "type": "barrel",
+    "class": "Rifle",
+    "manufacturer": "",
+    "statModifiers": {
+      "damageToHealing": 0.04,
+      "fireInterval": -10.0,
+      "impulseAccuracy": -1.0,
+      "magSize": 10.0,
+      "maxAccuracy": 15.0,
+      "minAccuracy": 8.0,
+      "projectileCount": 2.0,
+      "reloadTime": 3.0,
+      "weaponDamage": 0.2,
+      "weaponSpread": 5.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Lead Storm Barrel",
+    "type": "barrel",
+    "class": "Rifle",
+    "manufacturer": "",
+    "statModifiers": {
+      "critDamage": 0.3,
+      "extraShotChance": 0.35,
+      "fireInterval": 15.0,
+      "magSize": 20.0,
+      "reloadTime": 1.0,
+      "weaponDamage": 0.23,
+      "weaponSpread": 4.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "M2828 Thumpson",
+    "type": "barrel",
+    "class": "Rifle",
+    "manufacturer": "",
+    "statModifiers": {
+      "accuracyRegen": 5.0,
+      "burstImpulseScale": 3.0,
+      "impulseAccuracy": 8.0,
+      "magSize": 35.0,
+      "maxAccuracy": 5.0,
+      "weaponDamage": 2.0,
+      "weaponSpread": -4.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Madhous Barrel",
+    "type": "barrel",
+    "class": "Rifle",
+    "manufacturer": "",
+    "statModifiers": {
+      "magSize": 24.0,
+      "minAccuracy": -3.0,
+      "weaponDamage": 1.0
+    },
+    "compatibilityBonus": {
+      "Bandit": {
+        "impulseAccuracy": -0.7
+      }
+    }
+  },
+  {
+    "id": "Major Tom Barrel",
+    "type": "barrel",
+    "class": "Rifle",
+    "manufacturer": "",
+    "statModifiers": {
+      "accuracyRegen": 5.0,
+      "burstImpulseScale": 6.0,
+      "impulseAccuracy": 12.0,
+      "maxAccuracy": 5.0,
+      "weaponDamage": 5.0
+    },
+    "compatibilityBonus": {
+      "Dahl + Zoom": {
+        "burstCount": 2.0
+      },
+      "Dahl": {
+        "magSize": 7.0,
+        "projectileCount": 2.0,
+        "shotCost": 1.0,
+        "weaponDamage": 0.3,
+        "weaponSpread": -0.4
+      }
+    }
+  },
+  {
+    "id": "Ogre Barrel",
+    "type": "barrel",
+    "class": "Rifle",
+    "manufacturer": "",
+    "statModifiers": {
+      "fireInterval": 14.0,
+      "impulseAccuracy": 5.0,
+      "magSize": 28.0,
+      "weaponDamage": 0.17,
+      "weaponSpread": 1.5
+    },
+    "compatibilityBonus": {
+      "Torgue": {
+        "extraShotChance": 0.25
+      }
+    }
+  },
+  {
+    "id": "Ol' Painful Barrel",
+    "type": "barrel",
+    "class": "Rifle",
+    "manufacturer": "",
+    "statModifiers": {
+      "fireInterval": 18.0,
+      "impulseAccuracy": 10.0,
+      "magSize": 10.0,
+      "weaponSpread": -3.0
+    },
+    "compatibilityBonus": {
+      "Vladof": {
+        "magSize": 20.0,
+        "weaponDamage": 0.15
+      }
+    }
+  },
+  {
+    "id": "Peak Opener Barrel",
+    "type": "barrel",
+    "class": "Rifle",
+    "manufacturer": "",
+    "statModifiers": {
+      "fireInterval": -20.0,
+      "impulseAccuracy": -5.0,
+      "magSize": 20.0,
+      "shotCost": 3.0,
+      "weaponDamage": 3.4
+    },
+    "compatibilityBonus": {
+      "Zoom": {
+        "fireInterval": -0.9
+      }
+    }
+  },
+  {
+    "id": "Rapier Barrel",
+    "type": "barrel",
+    "class": "Rifle",
+    "manufacturer": "",
+    "statModifiers": {
+      "impulseAccuracy": 35.0,
+      "meleeDamage": 2.0,
+      "minAccuracy": 10.0,
+      "weaponDamage": -0.4,
+      "weaponSpread": 10.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Sawbar Barrel",
+    "type": "barrel",
+    "class": "Rifle",
+    "manufacturer": "",
+    "statModifiers": {
+      "fireInterval": -6.0,
+      "impulseAccuracy": -5.0,
+      "minAccuracy": 5.0,
+      "weaponDamage": 6.0,
+      "weaponSpread": 6.0
+    },
+    "compatibilityBonus": {
+      "Jakobs": {
+        "impulseAccuracy": -0.2,
+        "weaponDamage": 0.15,
+        "weaponSpread": -0.15
+      }
+    }
+  },
+  {
+    "id": "Scorpio Barrel",
+    "type": "barrel",
+    "class": "Rifle",
+    "manufacturer": "",
+    "statModifiers": {
+      "extraShotChance": 0.3,
+      "fireInterval": 3.0,
+      "magSize": 6.0,
+      "maxAccuracy": 10.0,
+      "weaponDamage": 0.2,
+      "weaponSpread": 5.0
+    },
+    "compatibilityBonus": {
+      "Zoom": {
+        "burstCount": 2.0
+      }
+    }
+  },
+  {
+    "id": "Seeker Barrel",
+    "type": "barrel",
+    "class": "Rifle",
+    "manufacturer": "",
+    "statModifiers": {
+      "fireInterval": 2.0,
+      "impulseAccuracy": 10.0,
+      "magSize": 1.0,
+      "shotCost": 1.0,
+      "weaponDamage": 6.0,
+      "weaponSpread": -3.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Seraphim Barrel",
+    "type": "barrel",
+    "class": "Rifle",
+    "manufacturer": "",
+    "statModifiers": {
+      "accuracyRegen": -20.0,
+      "magSize": 0.5,
+      "maxAccuracy": -5.0,
+      "minAccuracy": -5.0,
+      "projectileSpeed": -0.8,
+      "reloadTime": 1.0,
+      "weaponDamage": 2.2
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Shredifier Barrel",
+    "type": "barrel",
+    "class": "Rifle",
+    "manufacturer": "",
+    "statModifiers": {
+      "fireInterval": 18.0,
+      "impulseAccuracy": 10.0,
+      "magSize": 10.0,
+      "weaponSpread": -3.0
+    },
+    "compatibilityBonus": {
+      "Vladof": {
+        "magSize": 20.0,
+        "weaponDamage": 0.15
+      }
+    }
+  },
+  {
+    "id": "Stinkpot Barrel",
+    "type": "barrel",
+    "class": "Rifle",
+    "manufacturer": "",
+    "statModifiers": {
+      "fireInterval": -30.0,
+      "impulseAccuracy": -5.0,
+      "magSize": 4.0,
+      "reloadTime": -5.0,
+      "shotCost": 1.0,
+      "weaponDamage": 2.5
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Stomper Barrel",
+    "type": "barrel",
+    "class": "Rifle",
+    "manufacturer": "",
+    "statModifiers": {
+      "critDamage": 0.5,
+      "fireInterval": -9.0,
+      "impulseAccuracy": -15.0,
+      "minAccuracy": 7.0
+    },
+    "compatibilityBonus": {
+      "Jakobs": {
+        "weaponDamage": 0.1,
+        "weaponSpread": -0.1
+      }
+    }
+  },
+  {
+    "id": "Toothpick Barrel",
+    "type": "barrel",
+    "class": "Rifle",
+    "manufacturer": "",
+    "statModifiers": {
+      "fireInterval": -25.0,
+      "magSize": 7.0,
+      "projectileCount": 1.0,
+      "reloadTime": -5.0,
+      "shotCost": 5.0,
+      "weaponDamage": 1.2,
+      "weaponSpread": -8.0
+    },
+    "compatibilityBonus": {
+      "Zoom": {
+        "fireInterval": -0.9
+      }
+    }
+  },
+  {
+    "id": "Veruc Barrel",
+    "type": "barrel",
+    "class": "Rifle",
+    "manufacturer": "",
+    "statModifiers": {
+      "accuracyRegen": 5.0,
+      "burstImpulseScale": 6.0,
+      "impulseAccuracy": 12.0,
+      "maxAccuracy": 5.0,
+      "weaponDamage": 5.0
+    },
+    "compatibilityBonus": {
+      "Dahl + Zoom": {
+        "burstCount": 2.0
+      },
+      "Dahl": {
+        "magSize": 7.0,
+        "projectileCount": 2.0,
+        "shotCost": 1.0,
+        "weaponDamage": 0.3,
+        "weaponSpread": -0.4
+      }
+    }
+  },
+  {
+    "id": "Wallop Barrel",
+    "type": "barrel",
+    "class": "Rifle",
+    "manufacturer": "",
+    "statModifiers": {
+      "critDamage": 0.6,
+      "fireInterval": -9.0,
+      "impulseAccuracy": -15.0,
+      "minAccuracy": 7.0
+    },
+    "compatibilityBonus": {
+      "Jakobs": {
+        "weaponDamage": 0.1,
+        "weaponSpread": -0.1
+      }
+    }
+  },
+  {
+    "id": "Bandit (Common)",
+    "type": "body",
+    "class": "Rifle",
+    "manufacturer": "Bandit",
+    "statModifiers": {},
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Bandit (Rare)",
+    "type": "body",
+    "class": "Rifle",
+    "manufacturer": "Bandit",
+    "statModifiers": {
+      "magSize": 20.0,
+      "reloadTime": 3.0,
+      "weaponDamage": -0.2,
+      "weaponSpread": 5.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Bandit (Uncommon)",
+    "type": "body",
+    "class": "Rifle",
+    "manufacturer": "Bandit",
+    "statModifiers": {
+      "magSize": 3.0,
+      "weaponDamage": 8.0,
+      "weaponSpread": 3.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Bandit (Very Rare)",
+    "type": "body",
+    "class": "Rifle",
+    "manufacturer": "Bandit",
+    "statModifiers": {
+      "magSize": 20.0,
+      "reloadTime": 3.0,
+      "weaponDamage": -0.2,
+      "weaponSpread": 7.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Dahl (Common)",
+    "type": "body",
+    "class": "Rifle",
+    "manufacturer": "Dahl",
+    "statModifiers": {},
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Dahl (Rare)",
+    "type": "body",
+    "class": "Rifle",
+    "manufacturer": "Dahl",
+    "statModifiers": {
+      "magSize": 5.0,
+      "weaponDamage": 16.0,
+      "weaponSpread": 5.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Dahl (Uncommon)",
+    "type": "body",
+    "class": "Rifle",
+    "manufacturer": "Dahl",
+    "statModifiers": {
+      "magSize": 3.0,
+      "weaponDamage": 8.0,
+      "weaponSpread": 3.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Dahl (Very Rare)",
+    "type": "body",
+    "class": "Rifle",
+    "manufacturer": "Dahl",
+    "statModifiers": {
+      "magSize": 7.0,
+      "weaponDamage": 24.0,
+      "weaponSpread": 7.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Jakobs (Common)",
+    "type": "body",
+    "class": "Rifle",
+    "manufacturer": "Jakobs",
+    "statModifiers": {},
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Jakobs (Rare)",
+    "type": "body",
+    "class": "Rifle",
+    "manufacturer": "Jakobs",
+    "statModifiers": {
+      "magSize": 5.0,
+      "weaponDamage": 16.0,
+      "weaponSpread": 5.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Jakobs (Uncommon)",
+    "type": "body",
+    "class": "Rifle",
+    "manufacturer": "Jakobs",
+    "statModifiers": {
+      "magSize": 3.0,
+      "weaponDamage": 8.0,
+      "weaponSpread": 3.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Jakobs (Very Rare)",
+    "type": "body",
+    "class": "Rifle",
+    "manufacturer": "Jakobs",
+    "statModifiers": {
+      "magSize": 7.0,
+      "weaponDamage": 24.0,
+      "weaponSpread": 7.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Torgue (Common)",
+    "type": "body",
+    "class": "Rifle",
+    "manufacturer": "Torgue",
+    "statModifiers": {},
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Torgue (Rare)",
+    "type": "body",
+    "class": "Rifle",
+    "manufacturer": "Torgue",
+    "statModifiers": {
+      "magSize": 5.0,
+      "weaponDamage": 16.0,
+      "weaponSpread": 5.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Torgue (Uncommon)",
+    "type": "body",
+    "class": "Rifle",
+    "manufacturer": "Torgue",
+    "statModifiers": {
+      "magSize": 3.0,
+      "weaponDamage": 8.0,
+      "weaponSpread": 3.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Torgue (Very Rare)",
+    "type": "body",
+    "class": "Rifle",
+    "manufacturer": "Torgue",
+    "statModifiers": {
+      "magSize": 7.0,
+      "weaponDamage": 24.0,
+      "weaponSpread": 7.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Vladof (Common)",
+    "type": "body",
+    "class": "Rifle",
+    "manufacturer": "Vladof",
+    "statModifiers": {},
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Vladof (Rare)",
+    "type": "body",
+    "class": "Rifle",
+    "manufacturer": "Vladof",
+    "statModifiers": {
+      "magSize": 5.0,
+      "weaponDamage": 16.0,
+      "weaponSpread": 5.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Vladof (Uncommon)",
+    "type": "body",
+    "class": "Rifle",
+    "manufacturer": "Vladof",
+    "statModifiers": {
+      "magSize": 3.0,
+      "weaponDamage": 8.0,
+      "weaponSpread": 3.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Vladof (Very Rare)",
+    "type": "body",
+    "class": "Rifle",
+    "manufacturer": "Vladof",
+    "statModifiers": {
+      "magSize": 7.0,
+      "weaponDamage": 24.0,
+      "weaponSpread": 7.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Bearcat",
+    "type": "body",
+    "class": "Rifle",
+    "manufacturer": "",
+    "statModifiers": {
+      "magSize": 7.0,
+      "weaponDamage": 24.0,
+      "weaponSpread": 7.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Bekah",
+    "type": "body",
+    "class": "Rifle",
+    "manufacturer": "",
+    "statModifiers": {
+      "magSize": 7.0,
+      "weaponDamage": 24.0,
+      "weaponSpread": 7.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Gearbox",
+    "type": "body",
+    "class": "Rifle",
+    "manufacturer": "",
+    "statModifiers": {
+      "fireInterval": 0.2,
+      "weaponDamage": 0.1
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Sawbar",
+    "type": "body",
+    "class": "Rifle",
+    "manufacturer": "",
+    "statModifiers": {
+      "magSize": 20.0,
+      "reloadTime": 3.0,
+      "weaponDamage": -0.2,
+      "weaponSpread": 7.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Toothpick",
+    "type": "body",
+    "class": "Rifle",
+    "manufacturer": "",
+    "statModifiers": {
+      "magSize": 7.0,
+      "weaponDamage": 24.0,
+      "weaponSpread": 7.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Bandit (BL2)",
+    "type": "definition",
+    "class": "Rifle",
+    "manufacturer": "Bandit",
+    "statModifiers": {
+      "critDamage": -0.2
+    },
+    "compatibilityBonus": {
+      "Zoom": {
+        "maxAccuracy": -0.1,
+        "minAccuracy": -1.0
+      }
+    }
+  },
+  {
+    "id": "Bandit (TPS)",
+    "type": "definition",
+    "class": "Rifle",
+    "manufacturer": "Bandit",
+    "statModifiers": {
+      "critDamage": -0.2
+    },
+    "compatibilityBonus": {
+      "Zoom": {
+        "minAccuracy": -1.0
+      }
+    }
+  },
+  {
+    "id": "Dahl (BL2)",
+    "type": "definition",
+    "class": "Rifle",
+    "manufacturer": "Dahl",
+    "statModifiers": {
+      "critDamage": -0.2,
+      "maxAccuracy": -2.0,
+      "minAccuracy": -1.0
+    },
+    "compatibilityBonus": {
+      "Zoom": {
+        "burstCount": 3.0,
+        "fireInterval": -0.08,
+        "impulseAccuracy": 3.0,
+        "maxAccuracy": -0.1,
+        "minAccuracy": -1.0,
+        "weaponSpread": -0.5
+      }
+    }
+  },
+  {
+    "id": "Dahl (TPS)",
+    "type": "definition",
+    "class": "Rifle",
+    "manufacturer": "Dahl",
+    "statModifiers": {
+      "critDamage": -0.2,
+      "maxAccuracy": -2.0,
+      "minAccuracy": -1.0
+    },
+    "compatibilityBonus": {
+      "Zoom": {
+        "burstCount": 3.0,
+        "fireInterval": -0.08,
+        "impulseAccuracy": 3.0,
+        "minAccuracy": -1.0,
+        "weaponSpread": -0.5
+      }
+    }
+  },
+  {
+    "id": "Jakobs (BL2)",
+    "type": "definition",
+    "class": "Rifle",
+    "manufacturer": "Jakobs",
+    "statModifiers": {
+      "accuracyRegen": 2.0,
+      "critDamage": 0.3,
+      "maxAccuracy": 2.0,
+      "minAccuracy": -1.0,
+      "projectileSpeed": 0.3
+    },
+    "compatibilityBonus": {
+      "Zoom": {
+        "minAccuracy": -1.0
+      }
+    }
+  },
+  {
+    "id": "Jakobs (TPS)",
+    "type": "definition",
+    "class": "Rifle",
+    "manufacturer": "Jakobs",
+    "statModifiers": {
+      "accuracyRegen": 2.0,
+      "critDamage": 0.3,
+      "maxAccuracy": 1.0,
+      "minAccuracy": -1.0,
+      "projectileSpeed": 0.3
+    },
+    "compatibilityBonus": {
+      "Zoom": {
+        "minAccuracy": -1.0
+      }
+    }
+  },
+  {
+    "id": "Torgue (BL2)",
+    "type": "definition",
+    "class": "Rifle",
+    "manufacturer": "Torgue",
+    "statModifiers": {
+      "critDamage": -0.2,
+      "minAccuracy": -1.0
+    },
+    "compatibilityBonus": {
+      "Zoom": {
+        "maxAccuracy": -0.1,
+        "minAccuracy": -1.0
+      }
+    }
+  },
+  {
+    "id": "Torgue (TPS)",
+    "type": "definition",
+    "class": "Rifle",
+    "manufacturer": "Torgue",
+    "statModifiers": {
+      "critDamage": -0.2,
+      "minAccuracy": -1.0
+    },
+    "compatibilityBonus": {
+      "Zoom": {
+        "minAccuracy": -1.0
+      }
+    }
+  },
+  {
+    "id": "Vladof (BL2)",
+    "type": "definition",
+    "class": "Rifle",
+    "manufacturer": "Vladof",
+    "statModifiers": {
+      "critDamage": -0.2,
+      "minAccuracy": -1.0
+    },
+    "compatibilityBonus": {
+      "Zoom": {
+        "maxAccuracy": -0.1,
+        "minAccuracy": -1.0
+      }
+    }
+  },
+  {
+    "id": "Vladof (TPS)",
+    "type": "definition",
+    "class": "Rifle",
+    "manufacturer": "Vladof",
+    "statModifiers": {
+      "critDamage": -0.2,
+      "minAccuracy": -1.0
+    },
+    "compatibilityBonus": {
+      "Zoom": {
+        "minAccuracy": -1.0
+      }
+    }
+  },
+  {
+    "id": "Peak Opener",
+    "type": "definition",
+    "class": "Rifle",
+    "manufacturer": "",
+    "statModifiers": {
+      "critDamage": -0.2,
+      "minAccuracy": -1.0
+    },
+    "compatibilityBonus": {
+      "Zoom": {
+        "maxAccuracy": -0.1,
+        "minAccuracy": -1.0
+      }
+    }
+  },
+  {
+    "id": "\"No Element\"",
+    "type": "element",
+    "class": "Rifle",
+    "manufacturer": "",
+    "statModifiers": {},
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Corrosive",
+    "type": "element",
+    "class": "Rifle",
+    "manufacturer": "",
+    "statModifiers": {
+      "weaponDamage": -0.2
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Cryo",
+    "type": "element",
+    "class": "Rifle",
+    "manufacturer": "",
+    "statModifiers": {
+      "weaponDamage": -0.2
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Fire",
+    "type": "element",
+    "class": "Rifle",
+    "manufacturer": "",
+    "statModifiers": {
+      "weaponDamage": -0.2
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Shock",
+    "type": "element",
+    "class": "Rifle",
+    "manufacturer": "",
+    "statModifiers": {
+      "weaponDamage": -0.2
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Slag",
+    "type": "element",
+    "class": "Rifle",
+    "manufacturer": "",
+    "statModifiers": {
+      "weaponDamage": -0.2
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Cry Baby (Piercing)",
+    "type": "element",
+    "class": "Rifle",
+    "manufacturer": "",
+    "statModifiers": {},
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Cry Baby (Rage)",
+    "type": "element",
+    "class": "Rifle",
+    "manufacturer": "",
+    "statModifiers": {
+      "reloadTime": -0.6,
+      "weaponDamage": -0.25
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Bandit Grip",
+    "type": "grip",
+    "class": "Rifle",
+    "manufacturer": "Bandit",
+    "statModifiers": {
+      "magSize": 5.0,
+      "reloadTime": -2.0,
+      "weaponSpread": -3.0
+    },
+    "compatibilityBonus": {
+      "Bandit": {
+        "magSize": 6.0,
+        "reloadTime": -0.3
+      }
+    }
+  },
+  {
+    "id": "Dahl Grip",
+    "type": "grip",
+    "class": "Rifle",
+    "manufacturer": "Dahl",
+    "statModifiers": {
+      "accuracyRegen": 2.0,
+      "impulseAccuracy": 3.0,
+      "maxAccuracy": -3.0,
+      "weaponDamage": -2.0
+    },
+    "compatibilityBonus": {
+      "Dahl": {
+        "magSize": 4.0,
+        "reloadTime": -0.3
+      }
+    }
+  },
+  {
+    "id": "Jakobs Grip",
+    "type": "grip",
+    "class": "Rifle",
+    "manufacturer": "Jakobs",
+    "statModifiers": {
+      "fireInterval": -3.0,
+      "impulseAccuracy": -2.0,
+      "reloadTime": -1.0,
+      "weaponDamage": 4.0
+    },
+    "compatibilityBonus": {
+      "Jakobs": {
+        "impulseAccuracy": -0.2,
+        "magSize": 2.0,
+        "reloadTime": -0.3
+      }
+    }
+  },
+  {
+    "id": "Torgue Grip",
+    "type": "grip",
+    "class": "Rifle",
+    "manufacturer": "Torgue",
+    "statModifiers": {
+      "impulseAccuracy": -3.0,
+      "reloadTime": -2.0,
+      "weaponDamage": 3.0,
+      "weaponSpread": -2.0
+    },
+    "compatibilityBonus": {
+      "Torgue": {
+        "magSize": 4.0,
+        "reloadTime": -0.3
+      }
+    }
+  },
+  {
+    "id": "Vladof Grip",
+    "type": "grip",
+    "class": "Rifle",
+    "manufacturer": "Vladof",
+    "statModifiers": {
+      "accuracyRegen": -2.0,
+      "fireInterval": 4.0,
+      "weaponDamage": -2.0
+    },
+    "compatibilityBonus": {
+      "Jakobs": {
+        "reloadTime": -0.15
+      },
+      "Vladof": {
+        "magSize": 5.0,
+        "reloadTime": -0.3
+      }
+    }
+  },
+  {
+    "id": "Bandit Stock",
+    "type": "stock",
+    "class": "Rifle",
+    "manufacturer": "Bandit",
+    "statModifiers": {},
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Dahl Stock",
+    "type": "stock",
+    "class": "Rifle",
+    "manufacturer": "Dahl",
+    "statModifiers": {
+      "accuracyRegen": 4.0,
+      "impulseAccuracy": 4.0,
+      "maxAccuracy": 6.0,
+      "minAccuracy": -6.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Jakobs Stock",
+    "type": "stock",
+    "class": "Rifle",
+    "manufacturer": "Jakobs",
+    "statModifiers": {
+      "accuracyRegen": -5.0,
+      "impulseAccuracy": -2.0,
+      "maxAccuracy": -5.0,
+      "minAccuracy": 10.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Torgue Stock",
+    "type": "stock",
+    "class": "Rifle",
+    "manufacturer": "Torgue",
+    "statModifiers": {
+      "accuracyRegen": -4.0,
+      "impulseAccuracy": 5.0
+    },
+    "compatibilityBonus": {}
+  },
+  {
+    "id": "Vladof Stock",
+    "type": "stock",
+    "class": "Rifle",
+    "manufacturer": "Vladof",
+    "statModifiers": {
+      "accuracyRegen": 5.0,
+      "impulseAccuracy": -5.0
+    },
+    "compatibilityBonus": {}
+  }
+]
